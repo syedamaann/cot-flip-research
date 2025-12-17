@@ -161,7 +161,7 @@ class AnthropicBackend(InferenceBackend):
 
 class VLLMBackend(InferenceBackend):
     """vLLM backend for local inference."""
-    
+
     def __init__(self, model_name: str, tensor_parallel_size: int = 1):
         super().__init__(model_name)
         try:
@@ -170,21 +170,46 @@ class VLLMBackend(InferenceBackend):
             self.SamplingParams = SamplingParams
         except ImportError:
             raise ImportError("Please install vllm: pip install vllm")
-    
+
     def generate(self, prompt: str, max_tokens: int = 2048) -> Tuple[str, float, Optional[int]]:
         sampling_params = self.SamplingParams(
             temperature=0.7,
             max_tokens=max_tokens,
         )
-        
+
         start = time.time()
         outputs = self.llm.generate([prompt], sampling_params)
         elapsed = (time.time() - start) * 1000
-        
+
         text = outputs[0].outputs[0].text
         tokens = len(outputs[0].outputs[0].token_ids)
-        
+
         return text, elapsed, tokens
+
+    def generate_batch(self, prompts: List[str], max_tokens: int = 2048) -> List[Tuple[str, float, int]]:
+        """
+        Generate responses for a batch of prompts efficiently.
+        Returns list of (response, time_ms, token_count) tuples.
+        """
+        sampling_params = self.SamplingParams(
+            temperature=0.7,
+            max_tokens=max_tokens,
+        )
+
+        start = time.time()
+        outputs = self.llm.generate(prompts, sampling_params)
+        total_elapsed = (time.time() - start) * 1000
+
+        # Distribute time across batch (approximation)
+        time_per_prompt = total_elapsed / len(prompts)
+
+        results = []
+        for output in outputs:
+            text = output.outputs[0].text
+            tokens = len(output.outputs[0].token_ids)
+            results.append((text, time_per_prompt, tokens))
+
+        return results
 
 class TransformersBackend(InferenceBackend):
     """HuggingFace Transformers backend."""
@@ -313,13 +338,15 @@ def collect_data(
     output_file: Path,
     checkpoint_every: int = 10,
     max_problems: Optional[int] = None,
+    batch_size: int = 1,
 ) -> List[ModelOutput]:
     """
     Collect model outputs for all problems.
     Saves checkpoints periodically.
+    Supports batch processing for faster inference with vLLM.
     """
     results = []
-    
+
     # Load existing checkpoint if available
     if output_file.exists():
         with open(output_file) as f:
@@ -329,49 +356,116 @@ def collect_data(
             print(f"Loaded {len(results)} existing results")
     else:
         completed_ids = set()
-    
+
     # Filter to uncompleted problems
     remaining = [p for p in problems if p["id"] not in completed_ids]
     if max_problems:
         remaining = remaining[:max_problems]
-    
+
     print(f"Processing {len(remaining)} problems with {backend.model_name}")
-    
-    for i, problem in enumerate(tqdm(remaining)):
-        try:
-            prompt = create_prompt(problem["question"])
-            response, time_ms, tokens = backend.generate(prompt)
-            
-            cot, answer = extract_cot_and_answer(response)
-            
-            output = ModelOutput(
-                problem_id=problem["id"],
-                model_name=backend.model_name,
-                question=problem["question"],
-                correct_answer=problem["correct_answer"],
-                full_response=response,
-                chain_of_thought=cot,
-                final_answer=answer,
-                timestamp=datetime.now().isoformat(),
-                inference_time_ms=time_ms,
-                token_count=tokens,
-            )
-            
-            results.append(output)
-            
-            # Checkpoint
-            if (i + 1) % checkpoint_every == 0:
-                save_results(results, output_file)
-                print(f"Checkpoint saved: {len(results)} results")
-                
-        except Exception as e:
-            print(f"Error on problem {problem['id']}: {e}")
-            continue
-    
+    if batch_size > 1:
+        print(f"Using batch size: {batch_size}")
+
+    # Check if backend supports batch processing
+    supports_batch = hasattr(backend, 'generate_batch') and batch_size > 1
+
+    if supports_batch:
+        # Batch processing mode
+        for batch_start in tqdm(range(0, len(remaining), batch_size), desc="Batches"):
+            batch_problems = remaining[batch_start:batch_start + batch_size]
+
+            try:
+                # Create prompts for batch
+                prompts = [create_prompt(p["question"]) for p in batch_problems]
+
+                # Generate batch
+                batch_results = backend.generate_batch(prompts)
+
+                # Process each result in batch
+                for problem, (response, time_ms, tokens) in zip(batch_problems, batch_results):
+                    cot, answer = extract_cot_and_answer(response)
+
+                    output = ModelOutput(
+                        problem_id=problem["id"],
+                        model_name=backend.model_name,
+                        question=problem["question"],
+                        correct_answer=problem["correct_answer"],
+                        full_response=response,
+                        chain_of_thought=cot,
+                        final_answer=answer,
+                        timestamp=datetime.now().isoformat(),
+                        inference_time_ms=time_ms,
+                        token_count=tokens,
+                    )
+                    results.append(output)
+
+                # Checkpoint
+                if len(results) % checkpoint_every == 0:
+                    save_results(results, output_file)
+                    print(f"\nCheckpoint saved: {len(results)} results")
+
+            except Exception as e:
+                print(f"\nError on batch starting at {batch_start}: {e}")
+                # Fall back to individual processing for this batch
+                for problem in batch_problems:
+                    try:
+                        prompt = create_prompt(problem["question"])
+                        response, time_ms, tokens = backend.generate(prompt)
+                        cot, answer = extract_cot_and_answer(response)
+
+                        output = ModelOutput(
+                            problem_id=problem["id"],
+                            model_name=backend.model_name,
+                            question=problem["question"],
+                            correct_answer=problem["correct_answer"],
+                            full_response=response,
+                            chain_of_thought=cot,
+                            final_answer=answer,
+                            timestamp=datetime.now().isoformat(),
+                            inference_time_ms=time_ms,
+                            token_count=tokens,
+                        )
+                        results.append(output)
+                    except Exception as e2:
+                        print(f"Error on problem {problem['id']}: {e2}")
+                        continue
+    else:
+        # Sequential processing mode
+        for i, problem in enumerate(tqdm(remaining, desc="Problems")):
+            try:
+                prompt = create_prompt(problem["question"])
+                response, time_ms, tokens = backend.generate(prompt)
+
+                cot, answer = extract_cot_and_answer(response)
+
+                output = ModelOutput(
+                    problem_id=problem["id"],
+                    model_name=backend.model_name,
+                    question=problem["question"],
+                    correct_answer=problem["correct_answer"],
+                    full_response=response,
+                    chain_of_thought=cot,
+                    final_answer=answer,
+                    timestamp=datetime.now().isoformat(),
+                    inference_time_ms=time_ms,
+                    token_count=tokens,
+                )
+
+                results.append(output)
+
+                # Checkpoint
+                if (i + 1) % checkpoint_every == 0:
+                    save_results(results, output_file)
+                    print(f"\nCheckpoint saved: {len(results)} results")
+
+            except Exception as e:
+                print(f"\nError on problem {problem['id']}: {e}")
+                continue
+
     # Final save
     save_results(results, output_file)
-    print(f"Collection complete: {len(results)} total results")
-    
+    print(f"\nCollection complete: {len(results)} total results")
+
     return results
 
 def save_results(results: List[ModelOutput], output_file: Path):
@@ -388,7 +482,7 @@ def load_results(input_file: Path) -> List[ModelOutput]:
 
 def main():
     import argparse
-    
+
     parser = argparse.ArgumentParser(description="Collect reasoning model outputs")
     parser.add_argument("--backend", choices=["openai", "anthropic", "vllm", "transformers", "mock"],
                        default="mock", help="Inference backend to use")
@@ -396,17 +490,19 @@ def main():
                        help="Model name/path")
     parser.add_argument("--api-key", type=str, help="API key (for openai/anthropic backends)")
     parser.add_argument("--base-url", type=str, help="Base URL (for openai-compatible APIs)")
-    parser.add_argument("--problems", type=str, 
-                       default="/home/claude/cot-flip-research/data/problems/all_problems.json",
+    parser.add_argument("--problems", type=str,
+                       default="./data/problems/all_problems.json",
                        help="Path to problems JSON")
     parser.add_argument("--output", type=str,
-                       default="/home/claude/cot-flip-research/data/raw/model_outputs.json",
+                       default="./data/raw/model_outputs.json",
                        help="Output file path")
     parser.add_argument("--max", type=int, help="Maximum number of problems to process")
     parser.add_argument("--checkpoint-every", type=int, default=10)
-    
+    parser.add_argument("--batch-size", type=int, default=16,
+                       help="Batch size for inference (vLLM supports batching). Recommended: 8-32")
+
     args = parser.parse_args()
-    
+
     # Initialize backend
     if args.backend == "mock":
         backend = MockBackend(args.model)
@@ -418,13 +514,13 @@ def main():
         backend = VLLMBackend(args.model)
     elif args.backend == "transformers":
         backend = TransformersBackend(args.model)
-    
+
     # Load problems
     with open(args.problems) as f:
         problems = json.load(f)
-    
+
     print(f"Loaded {len(problems)} problems")
-    
+
     # Collect data
     results = collect_data(
         problems=problems,
@@ -432,8 +528,9 @@ def main():
         output_file=Path(args.output),
         checkpoint_every=args.checkpoint_every,
         max_problems=args.max,
+        batch_size=args.batch_size,
     )
-    
+
     print(f"\nCollection complete!")
     print(f"Results saved to: {args.output}")
 
