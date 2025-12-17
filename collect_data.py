@@ -42,49 +42,98 @@ class ModelOutput:
 def extract_cot_and_answer(response: str) -> Tuple[str, str]:
     """
     Extract chain of thought and final answer from model response.
-    Handles various response formats from different reasoning models.
+    Handles various response formats including DeepSeek-R1's format.
+
+    Priority order:
+    1. LaTeX \boxed{} format (most reliable for math answers)
+    2. </think> tag format (DeepSeek-R1 reasoning format)
+    3. Standard answer markers
+    4. Last line fallback
     """
     response = response.strip()
-    
-    # Pattern 1: Explicit answer markers
-    patterns = [
-        r"(?:Final Answer|Answer|The answer is|Therefore, the answer is)[:\s]*(.+?)(?:\n|$)",
-        r"(?:\*\*Answer\*\*|###\s*Answer)[:\s]*(.+?)(?:\n|$)",
-        r"\\boxed\{(.+?)\}",
-        r"(?:So|Thus|Therefore|Hence),?\s+(?:the answer is\s+)?(.+?)(?:\.|$)",
-    ]
-    
+    chain_of_thought = ""
     final_answer = ""
+
+    # Priority 1: Look for \boxed{} LaTeX format (find the LAST occurrence)
+    boxed_matches = list(re.finditer(r'\\boxed\{([^}]+)\}', response))
+    if boxed_matches:
+        last_match = boxed_matches[-1]
+        final_answer = last_match.group(1).strip()
+        # Everything before the last \boxed is CoT
+        chain_of_thought = response[:last_match.start()].strip()
+        return chain_of_thought, final_answer
+
+    # Priority 2: Look for </think> tag (DeepSeek-R1 format)
+    think_match = re.search(r'</think>\s*(.*)$', response, re.DOTALL | re.IGNORECASE)
+    if think_match:
+        chain_of_thought = response[:response.rfind('</think>')].strip()
+        # Remove <think> tag if present at start
+        chain_of_thought = re.sub(r'^\s*<think>\s*', '', chain_of_thought, flags=re.IGNORECASE)
+
+        final_section = think_match.group(1).strip()
+
+        # Try to extract answer from the final section
+        answer_patterns = [
+            r'\*\*Answer:\*\*\s*(.+?)(?:\n|$)',
+            r'Answer:\s*(.+?)(?:\n|$)',
+            r'\*\*Final Answer\*\*[:\s]*(.+?)(?:\n|$)',
+            r'Final Answer[:\s]*(.+?)(?:\n|$)',
+            r'(?:Therefore|Thus|So),?\s+(?:the answer is\s+)?(.+?)(?:\.|$)',
+        ]
+
+        for pattern in answer_patterns:
+            match = re.search(pattern, final_section, re.IGNORECASE)
+            if match:
+                final_answer = match.group(1).strip()
+                break
+
+        # If still no answer, take first substantial line from final section
+        if not final_answer and final_section:
+            lines = [l.strip() for l in final_section.split('\n') if l.strip()]
+            if lines:
+                final_answer = lines[0]
+
+        return chain_of_thought, final_answer
+
+    # Priority 3: Standard answer markers
+    patterns = [
+        r'\*\*Answer:\*\*\s*(.+?)(?:\n|$)',
+        r'Answer:\s*(.+?)(?:\n|$)',
+        r'\*\*Final Answer\*\*[:\s]*(.+?)(?:\n|$)',
+        r'Final Answer[:\s]*(.+?)(?:\n|$)',
+        r'The answer is[:\s]*(.+?)(?:\n|$)',
+        r'Therefore, the answer is[:\s]*(.+?)(?:\n|$)',
+        r'(?:\*\*Answer\*\*|###\s*Answer)[:\s]*(.+?)(?:\n|$)',
+    ]
+
     for pattern in patterns:
-        match = re.search(pattern, response, re.IGNORECASE | re.DOTALL)
+        match = re.search(pattern, response, re.IGNORECASE)
         if match:
             final_answer = match.group(1).strip()
-            break
-    
-    # If no explicit answer found, take the last sentence/line
-    if not final_answer:
-        lines = [l.strip() for l in response.split('\n') if l.strip()]
-        if lines:
-            final_answer = lines[-1]
-            # Clean up common prefixes
-            for prefix in ["So ", "Thus ", "Therefore ", "Hence ", "The answer is "]:
-                if final_answer.lower().startswith(prefix.lower()):
-                    final_answer = final_answer[len(prefix):]
-    
-    # Chain of thought is everything before the final answer extraction point
-    # For simplicity, we'll consider everything except the last paragraph as CoT
-    paragraphs = response.split('\n\n')
-    if len(paragraphs) > 1:
-        chain_of_thought = '\n\n'.join(paragraphs[:-1])
-    else:
-        # If single paragraph, try to split at the answer marker
-        chain_of_thought = response
-        for pattern in patterns:
-            match = re.search(pattern, response, re.IGNORECASE)
-            if match:
-                chain_of_thought = response[:match.start()].strip()
+            chain_of_thought = response[:match.start()].strip()
+            return chain_of_thought, final_answer
+
+    # Priority 4: Last line fallback (when no markers found)
+    lines = [l.strip() for l in response.split('\n') if l.strip()]
+    if lines:
+        final_answer = lines[-1]
+        # Clean up common prefixes
+        for prefix in ["So ", "Thus ", "Therefore ", "Hence ", "The answer is ", "Answer: "]:
+            if final_answer.lower().startswith(prefix.lower()):
+                final_answer = final_answer[len(prefix):].strip()
                 break
-    
+
+        # CoT is everything except last paragraph
+        paragraphs = response.split('\n\n')
+        if len(paragraphs) > 1:
+            chain_of_thought = '\n\n'.join(paragraphs[:-1])
+        else:
+            chain_of_thought = response
+
+    # Clean up markdown artifacts from final answer
+    final_answer = re.sub(r'^\*+\s*|\s*\*+$', '', final_answer)  # Remove leading/trailing asterisks
+    final_answer = re.sub(r'^\.+\s*|\s*\.+$', '', final_answer)  # Remove standalone dots
+
     return chain_of_thought, final_answer
 
 def create_prompt(question: str, include_cot_instruction: bool = True) -> str:
