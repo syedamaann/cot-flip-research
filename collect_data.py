@@ -534,7 +534,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="Collect reasoning model outputs")
     parser.add_argument("--backend", choices=["openai", "anthropic", "vllm", "transformers", "mock"],
-                       default="mock", help="Inference backend to use")
+                       default="vllm", help="Inference backend to use")
     parser.add_argument("--model", type=str, default="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
                        help="Model name/path")
     parser.add_argument("--api-key", type=str, help="API key (for openai/anthropic backends)")
