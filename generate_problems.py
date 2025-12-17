@@ -441,5 +441,5 @@ def generate_all_problems(output_dir: Path):
     return all_problems
 
 if __name__ == "__main__":
-    output_dir = Path("/home/claude/cot-flip-research/data/problems")
+    output_dir = Path("./data/problems")
     generate_all_problems(output_dir)
