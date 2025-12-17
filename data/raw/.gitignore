@@ -1,0 +1,5 @@
+# Ignore generated model outputs (can be regenerated)
+*.json
+
+# Keep this directory in git
+!.gitignore
