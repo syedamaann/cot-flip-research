@@ -1,0 +1,932 @@
+[
+  {
+    "id": "logic_negation_0",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no penguins are birds, and Daisy is a penguins, is Daisy a birds?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_1",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some penguins are birds, and Rex is a penguins, must Rex be a birds?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_2",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all penguins are birds, and Max is not a birds, is Max a penguins?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_negation_3",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no squares are rectangles, and Charlie is a squares, is Charlie a rectangles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_4",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no novels are books, and Max is a novels, is Max a books?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_5",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no roses are flowers, and Luna is a roses, is Luna a flowers?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_6",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no penguins are birds, and Charlie is a penguins, is Charlie a birds?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_7",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all penguins are birds, and Rex is not a birds, is Rex a penguins?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_negation_8",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some novels are books, and Luna is a novels, must Luna be a books?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_9",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no squares are rectangles, and Max is a squares, is Max a rectangles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_10",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some roses are flowers, and Charlie is a roses, must Charlie be a flowers?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_11",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some cars are vehicles, and Rex is a cars, must Rex be a vehicles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_12",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no squares are rectangles, and Luna is a squares, is Luna a rectangles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_13",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all squares are rectangles, and Rex is not a rectangles, is Rex a squares?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_negation_14",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all squares are rectangles, and Charlie is not a rectangles, is Charlie a squares?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_negation_15",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all roses are flowers, and Luna is not a flowers, is Luna a roses?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_negation_16",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some whales are fish, and Bella is a whales, must Bella be a fish?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_17",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some whales are fish, and Daisy is a whales, must Daisy be a fish?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_18",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some novels are books, and Daisy is a novels, must Daisy be a books?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_19",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no squares are rectangles, and Bella is a squares, is Bella a rectangles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_20",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all whales are fish, and Bella is not a fish, is Bella a whales?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_negation_21",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some apples are fruits, and Rex is a apples, must Rex be a fruits?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_22",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some dogs are mammals, and Rex is a dogs, must Rex be a mammals?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_23",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some roses are flowers, and Rex is a roses, must Rex be a flowers?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_24",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no whales are fish, and Max is a whales, is Max a fish?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_25",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all novels are books, and Rex is not a books, is Rex a novels?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_negation_26",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all roses are flowers, and Charlie is not a flowers, is Charlie a roses?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_negation_27",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some tomatoes are vegetables, and Bella is a tomatoes, must Bella be a vegetables?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_28",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no tomatoes are vegetables, and Daisy is a tomatoes, is Daisy a vegetables?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_negation_29",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all whales are fish, and Charlie is not a fish, is Charlie a whales?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_conditional_0",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_1",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_2",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_3",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_4",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_5",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_6",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_7",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_8",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_9",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_10",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_11",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_12",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_13",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_14",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_15",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_16",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_17",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_18",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_19",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_20",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_21",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_22",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_23",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_24",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_25",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_26",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_27",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_28",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_conditional_29",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_sequence_0",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 13, 15, 17, 19?",
+    "correct_answer": "21",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 2"
+  },
+  {
+    "id": "logic_sequence_1",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 14, 17, 20, 23?",
+    "correct_answer": "26",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "logic_sequence_2",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 14, 17, 20, 23?",
+    "correct_answer": "26",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "logic_sequence_3",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 18, 26, 34, 42, 50?",
+    "correct_answer": "58",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 8"
+  },
+  {
+    "id": "logic_sequence_4",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 10, 16, 22, 28, 34?",
+    "correct_answer": "40",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 6"
+  },
+  {
+    "id": "logic_sequence_5",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 20, 24, 28, 32, 36?",
+    "correct_answer": "40",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "logic_sequence_6",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 14, 17, 20, 23?",
+    "correct_answer": "26",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "logic_sequence_7",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 19, 23, 27, 31, 35?",
+    "correct_answer": "39",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "logic_sequence_8",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 12, 18, 24, 30, 36?",
+    "correct_answer": "42",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 6"
+  },
+  {
+    "id": "logic_sequence_9",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 13, 17, 21, 25, 29?",
+    "correct_answer": "33",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "logic_sequence_10",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 20, 23, 26, 29, 32?",
+    "correct_answer": "35",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "logic_sequence_11",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 10, 20, 30, 40, 50?",
+    "correct_answer": "60",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 10"
+  },
+  {
+    "id": "logic_sequence_12",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 13, 20, 27, 34, 41?",
+    "correct_answer": "48",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "logic_sequence_13",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 5, 15, 25, 35, 45?",
+    "correct_answer": "55",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 10"
+  },
+  {
+    "id": "logic_sequence_14",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 3, 11, 19, 27, 35?",
+    "correct_answer": "43",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 8"
+  },
+  {
+    "id": "logic_sequence_15",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 17, 24, 31, 38, 45?",
+    "correct_answer": "52",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "logic_sequence_16",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 1, 8, 15, 22, 29?",
+    "correct_answer": "36",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "logic_sequence_17",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 10, 14, 18, 22, 26?",
+    "correct_answer": "30",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "logic_sequence_18",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 7, 14, 21, 28, 35?",
+    "correct_answer": "42",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "logic_sequence_19",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 16, 21, 26, 31, 36?",
+    "correct_answer": "41",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 5"
+  },
+  {
+    "id": "logic_sequence_20",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 8, 12, 16, 20, 24?",
+    "correct_answer": "28",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "logic_sequence_21",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 5, 8, 11, 14, 17?",
+    "correct_answer": "20",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "logic_sequence_22",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 10, 13, 16, 19, 22?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "logic_sequence_23",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 17, 27, 37, 47, 57?",
+    "correct_answer": "67",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 10"
+  },
+  {
+    "id": "logic_sequence_24",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 17, 19, 21, 23, 25?",
+    "correct_answer": "27",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 2"
+  },
+  {
+    "id": "logic_sequence_25",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 15, 19, 23, 27?",
+    "correct_answer": "31",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "logic_sequence_26",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 20, 28, 36, 44, 52?",
+    "correct_answer": "60",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 8"
+  },
+  {
+    "id": "logic_sequence_27",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 5, 9, 13, 17, 21?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "logic_sequence_28",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 6, 10, 14, 18, 22?",
+    "correct_answer": "26",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "logic_sequence_29",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 15, 17, 19, 21, 23?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 2"
+  },
+  {
+    "id": "logic_sequence_30",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 14, 21, 28, 35, 42?",
+    "correct_answer": "49",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "logic_sequence_31",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 8, 17, 26, 35, 44?",
+    "correct_answer": "53",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 9"
+  },
+  {
+    "id": "logic_sequence_32",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 20, 26, 32, 38, 44?",
+    "correct_answer": "50",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 6"
+  }
+]

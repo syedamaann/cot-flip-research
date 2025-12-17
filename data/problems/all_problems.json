@@ -1,0 +1,5445 @@
+[
+  {
+    "id": "decimal_comp_rand_51",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.86 or 2.2?",
+    "correct_answer": "2.86",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.86 is larger"
+  },
+  {
+    "id": "arithmetic_17",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Alice has 48 grapes. Alice gives 12 grapes to Henry. How many grapes does Alice have left?",
+    "correct_answer": "36",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 48,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_97",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Henry has 9 cookies. Carol gives Henry 33 more cookies. How many cookies does Henry have now?",
+    "correct_answer": "42",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 9,
+      "b": 33,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_55",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.7 or 6.766?",
+    "correct_answer": "8.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.7 is larger"
+  },
+  {
+    "id": "percent_50",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 133 to 161. What is the percentage change?",
+    "correct_answer": "21.1%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "logic_conditional_22",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "arithmetic_46",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 20 packs of books. Each pack contains 31 books. How many books does Alice have in total?",
+    "correct_answer": "620",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 20,
+      "b": 31,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_58",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Alice has 7 eggs. Carol has 2 times as many. David has 4 fewer than Carol. How many eggs does David have?",
+    "correct_answer": "10",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 7,
+      "b": 4,
+      "c": 2
+    }
+  },
+  {
+    "id": "percent_4",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 88% of 170?",
+    "correct_answer": "149.6",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "decimal_comp_rand_79",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.354 or 3.095?",
+    "correct_answer": "8.354",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.354 is larger"
+  },
+  {
+    "id": "trick_2",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "wrong_intuitive_answer": "24 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "If it doubles each day, it was half covered the day before it was fully covered"
+  },
+  {
+    "id": "logic_negation_8",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some novels are books, and Luna is a novels, must Luna be a books?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "trick_var_39",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "logic_sequence_9",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 13, 17, 21, 25, 29?",
+    "correct_answer": "33",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "decimal_comp_2",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 9.9 or 9.81?",
+    "correct_answer": "9.81",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "9.81 > 9.9 because when aligned to same decimal places, 9.810 > 9.900"
+  },
+  {
+    "id": "percent_13",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 78% of 177?",
+    "correct_answer": "138.06",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_10",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 16% of 127?",
+    "correct_answer": "20.32",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "decimal_comp_3",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 9.9 greater than 9.81?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "9.9 is not greater than 9.81"
+  },
+  {
+    "id": "percent_65",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 196 to 281. What is the percentage change?",
+    "correct_answer": "43.4%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_74",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 81 to 49. What is the percentage change?",
+    "correct_answer": "-39.5%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_48",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Bob has 49 grapes. David gives Bob 20 more grapes. How many grapes does Bob have now?",
+    "correct_answer": "69",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 49,
+      "b": 20,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_61",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.75 or 4.87?",
+    "correct_answer": "4.87",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.87 is larger"
+  },
+  {
+    "id": "percent_37",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 70% of 151?",
+    "correct_answer": "105.7",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "arithmetic_13",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Carol has 120 eggs to distribute equally among 10 friends. How many eggs does each friend get?",
+    "correct_answer": "12",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 120,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_26",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all roses are flowers, and Charlie is not a flowers, is Charlie a roses?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "trick_var_45",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_32",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.534 or 3.47?",
+    "correct_answer": "7.534",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.534 is larger"
+  },
+  {
+    "id": "decimal_comp_9",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 0.9 greater than 0.85?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "0.9 is not greater than 0.85"
+  },
+  {
+    "id": "logic_conditional_11",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "arithmetic_75",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Alice has 16 hats to distribute equally among 8 friends. How many hats does each friend get?",
+    "correct_answer": "2",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 16,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_56",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 69 to 122. What is the percentage change?",
+    "correct_answer": "76.8%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_29",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 84 to 124. What is the percentage change?",
+    "correct_answer": "47.6%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "logic_sequence_31",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 8, 17, 26, 35, 44?",
+    "correct_answer": "53",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 9"
+  },
+  {
+    "id": "percent_45",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $182 is increased by 27%, then decreased by 27%. What is the final price?",
+    "correct_answer": "$168.73",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $182 - percentage of different bases"
+  },
+  {
+    "id": "decimal_comp_16",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 5.6 or 5.59?",
+    "correct_answer": "5.59",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "5.59 > 5.6 because when aligned to same decimal places, 5.590 > 5.600"
+  },
+  {
+    "id": "decimal_comp_rand_87",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.41 or 1.7?",
+    "correct_answer": "6.41",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.41 is larger"
+  },
+  {
+    "id": "arithmetic_70",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Alice has 6 eggs. Henry has 5 times as many. Grace has 3 fewer than Henry. How many eggs does Grace have?",
+    "correct_answer": "27",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 6,
+      "b": 3,
+      "c": 5
+    }
+  },
+  {
+    "id": "arithmetic_10",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 48 packs of grapes. Each pack contains 16 grapes. How many grapes does Carol have in total?",
+    "correct_answer": "768",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 48,
+      "b": 16,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_6",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "wrong_intuitive_answer": "A number in pounds",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "A butcher weighs meat"
+  },
+  {
+    "id": "percent_47",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 160 to 156. What is the percentage change?",
+    "correct_answer": "-2.5%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_96",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 78 eggs. David gives 33 eggs to Emma. How many eggs does David have left?",
+    "correct_answer": "45",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 78,
+      "b": 33,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_sequence_14",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 3, 11, 19, 27, 35?",
+    "correct_answer": "43",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 8"
+  },
+  {
+    "id": "logic_sequence_25",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 15, 19, 23, 27?",
+    "correct_answer": "31",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "arithmetic_18",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Henry has 8 dollars. Alice has 3 times as many. Frank has 8 fewer than Alice. How many dollars does Frank have?",
+    "correct_answer": "16",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 8,
+      "b": 8,
+      "c": 3
+    }
+  },
+  {
+    "id": "decimal_comp_5",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 3.14 greater than 3.2?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "3.14 is not greater than 3.2"
+  },
+  {
+    "id": "arithmetic_30",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Alice has 9 grapes. Bob has 3 times as many. Henry has 8 fewer than Bob. How many grapes does Henry have?",
+    "correct_answer": "19",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 9,
+      "b": 8,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_108",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Grace has 34 books. Alice gives Grace 28 more books. How many books does Grace have now?",
+    "correct_answer": "62",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 34,
+      "b": 28,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_7",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all penguins are birds, and Rex is not a birds, is Rex a penguins?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "decimal_comp_rand_84",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.116 or 8.544?",
+    "correct_answer": "8.544",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.544 is larger"
+  },
+  {
+    "id": "percent_9",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $123 is increased by 25%, then decreased by 25%. What is the final price?",
+    "correct_answer": "$115.31",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $123 - percentage of different bases"
+  },
+  {
+    "id": "decimal_comp_rand_15",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.852 or 8.4?",
+    "correct_answer": "8.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.4 is larger"
+  },
+  {
+    "id": "logic_conditional_17",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_73",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Henry has 20 grapes to distribute equally among 10 friends. How many grapes does each friend get?",
+    "correct_answer": "2",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 20,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_49",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "percent_25",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 42% of 149?",
+    "correct_answer": "62.58",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "trick_var_11",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_18",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 8.1 or 8.099?",
+    "correct_answer": "8.099",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "8.099 > 8.1 because when aligned to same decimal places, 8.099 > 8.100"
+  },
+  {
+    "id": "arithmetic_21",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Henry has 19 eggs. Frank has 4 times as many. Bob has 2 fewer than Frank. How many eggs does Bob have?",
+    "correct_answer": "74",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 19,
+      "b": 2,
+      "c": 4
+    }
+  },
+  {
+    "id": "trick_var_34",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "percent_62",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 195 to 184. What is the percentage change?",
+    "correct_answer": "-5.6%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "decimal_comp_rand_92",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.0 or 6.852?",
+    "correct_answer": "9.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.0 is larger"
+  },
+  {
+    "id": "percent_7",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 87% of 88?",
+    "correct_answer": "76.56",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "decimal_comp_rand_21",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.07 or 2.8?",
+    "correct_answer": "8.07",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.07 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_8",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.58 or 1.11?",
+    "correct_answer": "9.58",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.58 is larger"
+  },
+  {
+    "id": "percent_42",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $152 is increased by 38%, then decreased by 38%. What is the final price?",
+    "correct_answer": "$130.05",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $152 - percentage of different bases"
+  },
+  {
+    "id": "percent_76",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 50% of 163?",
+    "correct_answer": "81.5",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "arithmetic_146",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "David buys 23 packs of eggs. Each pack contains 25 eggs. How many eggs does David have in total?",
+    "correct_answer": "575",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 23,
+      "b": 25,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_33",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "percent_0",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $57 is increased by 30%, then decreased by 30%. What is the final price?",
+    "correct_answer": "$51.87",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $57 - percentage of different bases"
+  },
+  {
+    "id": "decimal_comp_rand_10",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.324 or 1.34?",
+    "correct_answer": "7.324",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.324 is larger"
+  },
+  {
+    "id": "logic_sequence_6",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 14, 17, 20, 23?",
+    "correct_answer": "26",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "percent_3",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $170 is increased by 18%, then decreased by 18%. What is the final price?",
+    "correct_answer": "$164.49",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $170 - percentage of different bases"
+  },
+  {
+    "id": "percent_22",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 80% of 179?",
+    "correct_answer": "143.2",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "decimal_comp_rand_95",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.7 or 8.8?",
+    "correct_answer": "8.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.8 is larger"
+  },
+  {
+    "id": "arithmetic_51",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Bob has 35 flowers. Bob gives 12 flowers to Grace. How many flowers does Bob have left?",
+    "correct_answer": "23",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 35,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_conditional_24",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_106",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Emma has 27 books to distribute equally among 9 friends. How many books does each friend get?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 27,
+      "b": 9,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_14",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 54 to 135. What is the percentage change?",
+    "correct_answer": "150.0%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_63",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 49 packs of eggs. Each pack contains 34 eggs. How many eggs does Alice have in total?",
+    "correct_answer": "1666",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 49,
+      "b": 34,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_104",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Bob has 42 grapes. Bob gives 13 grapes to David. How many grapes does Bob have left?",
+    "correct_answer": "29",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_53",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.87 or 2.0?",
+    "correct_answer": "7.87",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.87 is larger"
+  },
+  {
+    "id": "logic_sequence_13",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 5, 15, 25, 35, 45?",
+    "correct_answer": "55",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 10"
+  },
+  {
+    "id": "trick_var_37",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_1",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 9.11 greater than 9.8?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "9.11 is not greater than 9.8"
+  },
+  {
+    "id": "arithmetic_147",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 16 grapes. Emma gives Alice 13 more grapes. How many grapes does Alice have now?",
+    "correct_answer": "29",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 16,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_31",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 34 dollars. David gives Emma 25 more dollars. How many dollars does Emma have now?",
+    "correct_answer": "59",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 34,
+      "b": 25,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_0",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no penguins are birds, and Daisy is a penguins, is Daisy a birds?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "arithmetic_111",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Henry has 12 grapes. Frank gives Henry 13 more grapes. How many grapes does Henry have now?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_26",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.99 or 3.7?",
+    "correct_answer": "8.99",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.99 is larger"
+  },
+  {
+    "id": "percent_28",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 52% of 76?",
+    "correct_answer": "39.52",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "decimal_comp_rand_71",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.5 or 4.25?",
+    "correct_answer": "4.25",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.25 is larger"
+  },
+  {
+    "id": "logic_sequence_2",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 14, 17, 20, 23?",
+    "correct_answer": "26",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "decimal_comp_22",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 0.7 or 0.699?",
+    "correct_answer": "0.699",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "0.699 > 0.7 because when aligned to same decimal places, 0.699 > 0.700"
+  },
+  {
+    "id": "logic_sequence_26",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 20, 28, 36, 44, 52?",
+    "correct_answer": "60",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 8"
+  },
+  {
+    "id": "decimal_comp_rand_68",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.659 or 0.9?",
+    "correct_answer": "1.659",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "1.659 is larger"
+  },
+  {
+    "id": "arithmetic_128",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Frank has 19 eggs. David has 5 times as many. Grace has 9 fewer than David. How many eggs does Grace have?",
+    "correct_answer": "86",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 19,
+      "b": 9,
+      "c": 5
+    }
+  },
+  {
+    "id": "trick_var_44",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_5",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.5 or 4.55?",
+    "correct_answer": "5.5",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.5 is larger"
+  },
+  {
+    "id": "percent_1",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 28% of 75?",
+    "correct_answer": "21.0",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "decimal_comp_rand_85",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.9 or 1.01?",
+    "correct_answer": "4.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.9 is larger"
+  },
+  {
+    "id": "logic_conditional_23",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "decimal_comp_rand_94",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.741 or 1.6?",
+    "correct_answer": "9.741",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.741 is larger"
+  },
+  {
+    "id": "decimal_comp_7",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 7.123 greater than 7.2?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "7.123 is not greater than 7.2"
+  },
+  {
+    "id": "percent_16",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 64% of 86?",
+    "correct_answer": "55.04",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "arithmetic_124",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Henry has 47 apples. Emma gives Henry 38 more apples. How many apples does Henry have now?",
+    "correct_answer": "85",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 47,
+      "b": 38,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_32",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_12",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.87 or 5.816?",
+    "correct_answer": "8.87",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.87 is larger"
+  },
+  {
+    "id": "logic_sequence_24",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 17, 19, 21, 23, 25?",
+    "correct_answer": "27",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 2"
+  },
+  {
+    "id": "percent_59",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 162 to 144. What is the percentage change?",
+    "correct_answer": "-11.1%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_121",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Carol has 42 dollars. Alice gives Carol 25 more dollars. How many dollars does Carol have now?",
+    "correct_answer": "67",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 25,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_11",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 14 apples. David has 3 times as many. Grace has 5 fewer than David. How many apples does Grace have?",
+    "correct_answer": "37",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 14,
+      "b": 5,
+      "c": 3
+    }
+  },
+  {
+    "id": "percent_36",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $129 is increased by 42%, then decreased by 42%. What is the final price?",
+    "correct_answer": "$106.24",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $129 - percentage of different bases"
+  },
+  {
+    "id": "arithmetic_98",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Emma buys 34 packs of eggs. Each pack contains 24 eggs. How many eggs does Emma have in total?",
+    "correct_answer": "816",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 34,
+      "b": 24,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_4",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Grace has 5 flowers. Frank has 4 times as many. Emma has 2 fewer than Frank. How many flowers does Emma have?",
+    "correct_answer": "18",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 5,
+      "b": 2,
+      "c": 4
+    }
+  },
+  {
+    "id": "percent_15",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $197 is increased by 25%, then decreased by 25%. What is the final price?",
+    "correct_answer": "$184.69",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $197 - percentage of different bases"
+  },
+  {
+    "id": "trick_var_15",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_0",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 9.11 or 9.8?",
+    "correct_answer": "9.8",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "9.8 > 9.11 because when aligned to same decimal places, 9.800 > 9.110"
+  },
+  {
+    "id": "decimal_comp_17",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 5.6 greater than 5.59?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "5.6 is not greater than 5.59"
+  },
+  {
+    "id": "decimal_comp_rand_74",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.396 or 3.07?",
+    "correct_answer": "3.07",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "3.07 is larger"
+  },
+  {
+    "id": "arithmetic_55",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 11 hats. Grace gives Emma 5 more hats. How many hats does Emma have now?",
+    "correct_answer": "16",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 11,
+      "b": 5,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_39",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Bob has 16 apples. Henry has 5 times as many. Frank has 9 fewer than Henry. How many apples does Frank have?",
+    "correct_answer": "71",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 16,
+      "b": 9,
+      "c": 5
+    }
+  },
+  {
+    "id": "trick_var_27",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_67",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.666 or 4.82?",
+    "correct_answer": "4.82",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.82 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_18",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.794 or 2.52?",
+    "correct_answer": "2.52",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.52 is larger"
+  },
+  {
+    "id": "trick_var_35",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_9",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 25 grapes. Frank gives Emma 30 more grapes. How many grapes does Emma have now?",
+    "correct_answer": "55",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 25,
+      "b": 30,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_115",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "David buys 28 packs of dollars. Each pack contains 11 dollars. How many dollars does David have in total?",
+    "correct_answer": "308",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 11,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_35",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.1 or 8.72?",
+    "correct_answer": "8.72",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.72 is larger"
+  },
+  {
+    "id": "logic_conditional_7",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "decimal_comp_12",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 2.7 or 2.65?",
+    "correct_answer": "2.65",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "2.65 > 2.7 because when aligned to same decimal places, 2.650 > 2.700"
+  },
+  {
+    "id": "trick_3",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "wrong_intuitive_answer": "8",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "'All but 9' means 9 remain"
+  },
+  {
+    "id": "decimal_comp_rand_37",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 3.8 or 5.44?",
+    "correct_answer": "5.44",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.44 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_3",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.4 or 2.403?",
+    "correct_answer": "2.403",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.403 is larger"
+  },
+  {
+    "id": "arithmetic_72",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 15 packs of books. Each pack contains 26 books. How many books does Grace have in total?",
+    "correct_answer": "390",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 15,
+      "b": 26,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_conditional_2",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "decimal_comp_rand_45",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.09 or 4.05?",
+    "correct_answer": "4.05",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.05 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_27",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.1 or 7.6?",
+    "correct_answer": "7.6",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.6 is larger"
+  },
+  {
+    "id": "logic_sequence_21",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 5, 8, 11, 14, 17?",
+    "correct_answer": "20",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "percent_6",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $115 is increased by 23%, then decreased by 23%. What is the final price?",
+    "correct_answer": "$108.92",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $115 - percentage of different bases"
+  },
+  {
+    "id": "percent_5",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 51 to 5. What is the percentage change?",
+    "correct_answer": "-90.2%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "decimal_comp_rand_89",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.845 or 9.049?",
+    "correct_answer": "9.049",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.049 is larger"
+  },
+  {
+    "id": "arithmetic_107",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 91 grapes. David gives 47 grapes to Henry. How many grapes does David have left?",
+    "correct_answer": "44",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 91,
+      "b": 47,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_1",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some penguins are birds, and Rex is a penguins, must Rex be a birds?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "trick_var_47",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_10",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 1.5 or 1.45?",
+    "correct_answer": "1.45",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "1.45 > 1.5 because when aligned to same decimal places, 1.450 > 1.500"
+  },
+  {
+    "id": "decimal_comp_rand_50",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.06 or 0.8?",
+    "correct_answer": "9.06",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.06 is larger"
+  },
+  {
+    "id": "trick_var_24",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A bat and ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "correct_answer": "$0.05",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_64",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.577 or 6.65?",
+    "correct_answer": "9.577",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.577 is larger"
+  },
+  {
+    "id": "logic_negation_5",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no roses are flowers, and Luna is a roses, is Luna a flowers?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "trick_var_40",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A bat and ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "correct_answer": "$0.05",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_91",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Bob has 12 eggs. Carol has 5 times as many. Henry has 2 fewer than Carol. How many eggs does Henry have?",
+    "correct_answer": "58",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 12,
+      "b": 2,
+      "c": 5
+    }
+  },
+  {
+    "id": "logic_conditional_26",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "decimal_comp_rand_7",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.01 or 2.9?",
+    "correct_answer": "7.01",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.01 is larger"
+  },
+  {
+    "id": "arithmetic_99",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 50 books. Grace gives 25 books to Henry. How many books does Grace have left?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 50,
+      "b": 25,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_148",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "David has 24 flowers to distribute equally among 3 friends. How many flowers does each friend get?",
+    "correct_answer": "8",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 24,
+      "b": 3,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_22",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_65",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.63 or 2.3?",
+    "correct_answer": "2.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.3 is larger"
+  },
+  {
+    "id": "arithmetic_62",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Bob has 77 grapes. Bob gives 61 grapes to Carol. How many grapes does Bob have left?",
+    "correct_answer": "16",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 77,
+      "b": 61,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_sequence_0",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 13, 15, 17, 19?",
+    "correct_answer": "21",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 2"
+  },
+  {
+    "id": "trick_var_13",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_18",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "logic_negation_6",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no penguins are birds, and Charlie is a penguins, is Charlie a birds?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "arithmetic_126",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 9 hats to distribute equally among 3 friends. How many hats does each friend get?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 9,
+      "b": 3,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_33",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.4 or 0.132?",
+    "correct_answer": "4.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.4 is larger"
+  },
+  {
+    "id": "percent_69",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $177 is increased by 43%, then decreased by 43%. What is the final price?",
+    "correct_answer": "$144.27",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $177 - percentage of different bases"
+  },
+  {
+    "id": "arithmetic_22",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 37 books. Emma gives 10 books to Carol. How many books does Emma have left?",
+    "correct_answer": "27",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 37,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_142",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 36 grapes. David gives Emma 43 more grapes. How many grapes does Emma have now?",
+    "correct_answer": "79",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 36,
+      "b": 43,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_21",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $184 is increased by 44%, then decreased by 44%. What is the final price?",
+    "correct_answer": "$148.38",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $184 - percentage of different bases"
+  },
+  {
+    "id": "logic_negation_15",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all roses are flowers, and Luna is not a flowers, is Luna a roses?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_conditional_18",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "arithmetic_74",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 42 flowers to distribute equally among 3 friends. How many flowers does each friend get?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 3,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_9",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_44",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 28 hats to distribute equally among 7 friends. How many hats does each friend get?",
+    "correct_answer": "4",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_66",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.834 or 0.7?",
+    "correct_answer": "5.834",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.834 is larger"
+  },
+  {
+    "id": "arithmetic_19",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 90 grapes to distribute equally among 10 friends. How many grapes does each friend get?",
+    "correct_answer": "9",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 90,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_70",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 25% of 149?",
+    "correct_answer": "37.25",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "logic_sequence_16",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 1, 8, 15, 22, 29?",
+    "correct_answer": "36",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "decimal_comp_rand_93",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.118 or 8.85?",
+    "correct_answer": "8.85",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.85 is larger"
+  },
+  {
+    "id": "percent_57",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $143 is increased by 42%, then decreased by 42%. What is the final price?",
+    "correct_answer": "$117.77",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $143 - percentage of different bases"
+  },
+  {
+    "id": "arithmetic_82",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Carol has 18 eggs. Henry has 4 times as many. Alice has 6 fewer than Henry. How many eggs does Alice have?",
+    "correct_answer": "66",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 18,
+      "b": 6,
+      "c": 4
+    }
+  },
+  {
+    "id": "decimal_comp_rand_72",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.7 or 9.4?",
+    "correct_answer": "9.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.4 is larger"
+  },
+  {
+    "id": "logic_conditional_4",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_102",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Frank has 13 dollars. Bob has 2 times as many. Henry has 3 fewer than Bob. How many dollars does Henry have?",
+    "correct_answer": "23",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 13,
+      "b": 3,
+      "c": 2
+    }
+  },
+  {
+    "id": "arithmetic_49",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Frank buys 32 packs of flowers. Each pack contains 40 flowers. How many flowers does Frank have in total?",
+    "correct_answer": "1280",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 40,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_139",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Grace has 7 apples. Alice has 3 times as many. Carol has 9 fewer than Alice. How many apples does Carol have?",
+    "correct_answer": "12",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 7,
+      "b": 9,
+      "c": 3
+    }
+  },
+  {
+    "id": "logic_negation_14",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all squares are rectangles, and Charlie is not a rectangles, is Charlie a squares?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "decimal_comp_rand_29",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.0 or 3.88?",
+    "correct_answer": "6.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.0 is larger"
+  },
+  {
+    "id": "arithmetic_12",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 50 hats to distribute equally among 5 friends. How many hats does each friend get?",
+    "correct_answer": "10",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 50,
+      "b": 5,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_11",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.88 or 8.311?",
+    "correct_answer": "8.311",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.311 is larger"
+  },
+  {
+    "id": "logic_sequence_8",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 12, 18, 24, 30, 36?",
+    "correct_answer": "42",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 6"
+  },
+  {
+    "id": "trick_var_21",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_66",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 76 eggs. Emma gives 16 eggs to Frank. How many eggs does Emma have left?",
+    "correct_answer": "60",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 76,
+      "b": 16,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_64",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 19% of 145?",
+    "correct_answer": "27.55",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "arithmetic_0",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Frank has 54 dollars. Frank gives 11 dollars to Henry. How many dollars does Frank have left?",
+    "correct_answer": "43",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 54,
+      "b": 11,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_36",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 15 packs of books. Each pack contains 24 books. How many books does Carol have in total?",
+    "correct_answer": "360",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 15,
+      "b": 24,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_46",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 20% of 71?",
+    "correct_answer": "14.2",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "arithmetic_79",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "David has 12 hats. Henry gives David 46 more hats. How many hats does David have now?",
+    "correct_answer": "58",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 46,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_28",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.6 or 7.94?",
+    "correct_answer": "7.94",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.94 is larger"
+  },
+  {
+    "id": "trick_1",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "wrong_intuitive_answer": "100 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "Each machine makes 1 widget in 5 minutes, so 100 machines make 100 widgets in 5 minutes"
+  },
+  {
+    "id": "decimal_comp_rand_81",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.3 or 9.4?",
+    "correct_answer": "9.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.4 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_14",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.9 or 8.68?",
+    "correct_answer": "9.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.9 is larger"
+  },
+  {
+    "id": "trick_var_26",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_38",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_88",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.56 or 5.7?",
+    "correct_answer": "5.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.7 is larger"
+  },
+  {
+    "id": "arithmetic_129",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Bob has 32 dollars. Henry gives Bob 33 more dollars. How many dollars does Bob have now?",
+    "correct_answer": "65",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 33,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_24",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.64 or 1.482?",
+    "correct_answer": "4.64",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.64 is larger"
+  },
+  {
+    "id": "percent_51",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $164 is increased by 48%, then decreased by 48%. What is the final price?",
+    "correct_answer": "$126.21",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $164 - percentage of different bases"
+  },
+  {
+    "id": "arithmetic_59",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Grace has 17 dollars. Emma has 5 times as many. Frank has 8 fewer than Emma. How many dollars does Frank have?",
+    "correct_answer": "77",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 17,
+      "b": 8,
+      "c": 5
+    }
+  },
+  {
+    "id": "logic_conditional_8",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "decimal_comp_8",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 0.9 or 0.85?",
+    "correct_answer": "0.85",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "0.85 > 0.9 because when aligned to same decimal places, 0.850 > 0.900"
+  },
+  {
+    "id": "logic_sequence_17",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 10, 14, 18, 22, 26?",
+    "correct_answer": "30",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "logic_sequence_32",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 20, 26, 32, 38, 44?",
+    "correct_answer": "50",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 6"
+  },
+  {
+    "id": "percent_49",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 20% of 132?",
+    "correct_answer": "26.4",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "logic_negation_19",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no squares are rectangles, and Bella is a squares, is Bella a rectangles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_sequence_1",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 11, 14, 17, 20, 23?",
+    "correct_answer": "26",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "arithmetic_95",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Grace has 36 dollars. Emma gives Grace 42 more dollars. How many dollars does Grace have now?",
+    "correct_answer": "78",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 36,
+      "b": 42,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_109",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 11 packs of flowers. Each pack contains 48 flowers. How many flowers does Grace have in total?",
+    "correct_answer": "528",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 11,
+      "b": 48,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_55",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 17% of 161?",
+    "correct_answer": "27.37",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_53",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 139 to 99. What is the percentage change?",
+    "correct_answer": "-28.8%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_116",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Frank buys 17 packs of eggs. Each pack contains 12 eggs. How many eggs does Frank have in total?",
+    "correct_answer": "204",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 17,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_14",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Frank has 12 eggs. Alice has 3 times as many. Carol has 4 fewer than Alice. How many eggs does Carol have?",
+    "correct_answer": "32",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 12,
+      "b": 4,
+      "c": 3
+    }
+  },
+  {
+    "id": "decimal_comp_rand_19",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 3.857 or 6.9?",
+    "correct_answer": "6.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.9 is larger"
+  },
+  {
+    "id": "arithmetic_2",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 24 dollars to distribute equally among 2 friends. How many dollars does each friend get?",
+    "correct_answer": "12",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 24,
+      "b": 2,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_123",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Bob has 37 flowers. Emma gives Bob 42 more flowers. How many flowers does Bob have now?",
+    "correct_answer": "79",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 37,
+      "b": 42,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_68",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 79 to 76. What is the percentage change?",
+    "correct_answer": "-3.8%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_67",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 41% of 130?",
+    "correct_answer": "53.3",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "decimal_comp_rand_34",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.77 or 9.7?",
+    "correct_answer": "9.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.7 is larger"
+  },
+  {
+    "id": "logic_negation_20",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all whales are fish, and Bella is not a fish, is Bella a whales?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "logic_sequence_10",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 20, 23, 26, 29, 32?",
+    "correct_answer": "35",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "arithmetic_78",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 5 eggs. Grace has 5 times as many. Bob has 9 fewer than Grace. How many eggs does Bob have?",
+    "correct_answer": "16",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 5,
+      "b": 9,
+      "c": 5
+    }
+  },
+  {
+    "id": "arithmetic_80",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Henry has 73 eggs. Henry gives 62 eggs to Frank. How many eggs does Henry have left?",
+    "correct_answer": "11",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 73,
+      "b": 62,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_141",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Bob buys 44 packs of cookies. Each pack contains 8 cookies. How many cookies does Bob have in total?",
+    "correct_answer": "352",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 44,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_43",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.735 or 8.74?",
+    "correct_answer": "8.74",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.74 is larger"
+  },
+  {
+    "id": "arithmetic_131",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 28 packs of eggs. Each pack contains 14 eggs. How many eggs does Grace have in total?",
+    "correct_answer": "392",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 14,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_10",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_6",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 7.123 or 7.2?",
+    "correct_answer": "7.2",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "7.2 > 7.123 because when aligned to same decimal places, 7.200 > 7.123"
+  },
+  {
+    "id": "arithmetic_41",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 32 hats to distribute equally among 4 friends. How many hats does each friend get?",
+    "correct_answer": "8",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 4,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_sequence_27",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 5, 9, 13, 17, 21?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "arithmetic_103",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 42 apples. Henry gives Emma 28 more apples. How many apples does Emma have now?",
+    "correct_answer": "70",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 28,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_25",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "logic_negation_16",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some whales are fish, and Bella is a whales, must Bella be a fish?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "percent_54",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $140 is increased by 49%, then decreased by 49%. What is the final price?",
+    "correct_answer": "$106.39",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $140 - percentage of different bases"
+  },
+  {
+    "id": "percent_73",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 35% of 123?",
+    "correct_answer": "43.05",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "arithmetic_29",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Carol has 88 apples to distribute equally among 8 friends. How many apples does each friend get?",
+    "correct_answer": "11",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 88,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_82",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.7 or 7.4?",
+    "correct_answer": "7.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.4 is larger"
+  },
+  {
+    "id": "percent_23",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 55 to 125. What is the percentage change?",
+    "correct_answer": "127.3%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "logic_negation_2",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all penguins are birds, and Max is not a birds, is Max a penguins?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "percent_17",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 50 to 90. What is the percentage change?",
+    "correct_answer": "80.0%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "decimal_comp_rand_70",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.097 or 2.538?",
+    "correct_answer": "4.097",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.097 is larger"
+  },
+  {
+    "id": "logic_conditional_6",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_88",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Alice has 12 grapes to distribute equally among 4 friends. How many grapes does each friend get?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 4,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_71",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 117 to 181. What is the percentage change?",
+    "correct_answer": "54.7%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "trick_var_16",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "logic_conditional_12",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_61",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 40 books. David gives 16 books to Carol. How many books does David have left?",
+    "correct_answer": "24",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 40,
+      "b": 16,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_130",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 73 grapes. Grace gives 13 grapes to Carol. How many grapes does Grace have left?",
+    "correct_answer": "60",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 73,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_32",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 96 to 62. What is the percentage change?",
+    "correct_answer": "-35.4%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_33",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 46 books. David gives Alice 7 more books. How many books does Alice have now?",
+    "correct_answer": "53",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 46,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_10",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some roses are flowers, and Charlie is a roses, must Charlie be a flowers?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "decimal_comp_rand_59",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.487 or 1.069?",
+    "correct_answer": "4.487",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.487 is larger"
+  },
+  {
+    "id": "trick_var_12",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "logic_sequence_4",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 10, 16, 22, 28, 34?",
+    "correct_answer": "40",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 6"
+  },
+  {
+    "id": "percent_72",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $104 is increased by 49%, then decreased by 49%. What is the final price?",
+    "correct_answer": "$79.03",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $104 - percentage of different bases"
+  },
+  {
+    "id": "decimal_comp_rand_52",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.261 or 5.8?",
+    "correct_answer": "7.261",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.261 is larger"
+  },
+  {
+    "id": "arithmetic_113",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Carol has 18 flowers. Emma has 3 times as many. Frank has 10 fewer than Emma. How many flowers does Frank have?",
+    "correct_answer": "44",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 18,
+      "b": 10,
+      "c": 3
+    }
+  },
+  {
+    "id": "percent_33",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $167 is increased by 12%, then decreased by 12%. What is the final price?",
+    "correct_answer": "$164.6",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $167 - percentage of different bases"
+  },
+  {
+    "id": "arithmetic_122",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Carol has 31 cookies. David gives Carol 38 more cookies. How many cookies does Carol have now?",
+    "correct_answer": "69",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 31,
+      "b": 38,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_50",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Frank buys 24 packs of eggs. Each pack contains 21 eggs. How many eggs does Frank have in total?",
+    "correct_answer": "504",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 24,
+      "b": 21,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_46",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.53 or 9.01?",
+    "correct_answer": "9.01",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.01 is larger"
+  },
+  {
+    "id": "decimal_comp_19",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 8.1 greater than 8.099?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "8.1 is not greater than 8.099"
+  },
+  {
+    "id": "trick_var_23",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_20",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 6.3 or 6.29?",
+    "correct_answer": "6.29",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "6.29 > 6.3 because when aligned to same decimal places, 6.290 > 6.300"
+  },
+  {
+    "id": "arithmetic_136",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Frank has 12 flowers. Henry gives Frank 22 more flowers. How many flowers does Frank have now?",
+    "correct_answer": "34",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 22,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_79",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 32% of 126?",
+    "correct_answer": "40.32",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_77",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 138 to 228. What is the percentage change?",
+    "correct_answer": "65.2%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "decimal_comp_rand_77",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.1 or 9.3?",
+    "correct_answer": "9.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.3 is larger"
+  },
+  {
+    "id": "logic_sequence_30",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 14, 21, 28, 35, 42?",
+    "correct_answer": "49",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "logic_negation_29",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all whales are fish, and Charlie is not a fish, is Charlie a whales?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "arithmetic_53",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 12 eggs. Alice has 3 times as many. Carol has 6 fewer than Alice. How many eggs does Carol have?",
+    "correct_answer": "30",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 12,
+      "b": 6,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_71",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Henry has 20 grapes. Carol has 5 times as many. Bob has 2 fewer than Carol. How many grapes does Bob have?",
+    "correct_answer": "98",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 20,
+      "b": 2,
+      "c": 5
+    }
+  },
+  {
+    "id": "trick_var_19",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "logic_sequence_12",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 13, 20, 27, 34, 41?",
+    "correct_answer": "48",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "percent_34",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 15% of 125?",
+    "correct_answer": "18.75",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "decimal_comp_rand_36",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.433 or 6.1?",
+    "correct_answer": "8.433",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.433 is larger"
+  },
+  {
+    "id": "arithmetic_23",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 28 dollars. Grace gives 14 dollars to Frank. How many dollars does Grace have left?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 14,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_11",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some cars are vehicles, and Rex is a cars, must Rex be a vehicles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_sequence_15",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 17, 24, 31, 38, 45?",
+    "correct_answer": "52",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "percent_2",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 85 to 108. What is the percentage change?",
+    "correct_answer": "27.1%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_77",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 12 packs of hats. Each pack contains 6 hats. How many hats does Carol have in total?",
+    "correct_answer": "72",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 6,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_8",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_27",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 18 eggs. Emma has 2 times as many. Bob has 8 fewer than Emma. How many eggs does Bob have?",
+    "correct_answer": "28",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 18,
+      "b": 8,
+      "c": 2
+    }
+  },
+  {
+    "id": "percent_66",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $143 is increased by 35%, then decreased by 35%. What is the final price?",
+    "correct_answer": "$125.48",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $143 - percentage of different bases"
+  },
+  {
+    "id": "percent_78",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $188 is increased by 28%, then decreased by 28%. What is the final price?",
+    "correct_answer": "$173.26",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $188 - percentage of different bases"
+  },
+  {
+    "id": "decimal_comp_rand_75",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.3 or 0.192?",
+    "correct_answer": "9.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.3 is larger"
+  },
+  {
+    "id": "trick_7",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "wrong_intuitive_answer": "K2 or another mountain",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "Mt. Everest was still the highest, it just hadn't been discovered yet"
+  },
+  {
+    "id": "logic_negation_21",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some apples are fruits, and Rex is a apples, must Rex be a fruits?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "decimal_comp_rand_2",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.9 or 5.9?",
+    "correct_answer": "8.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.9 is larger"
+  },
+  {
+    "id": "arithmetic_85",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 60 apples. Grace gives 48 apples to Bob. How many apples does Grace have left?",
+    "correct_answer": "12",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 60,
+      "b": 48,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_31",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "logic_conditional_1",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_86",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 18 cookies to distribute equally among 9 friends. How many cookies does each friend get?",
+    "correct_answer": "2",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 18,
+      "b": 9,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_67",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Emma has 100 eggs to distribute equally among 10 friends. How many eggs does each friend get?",
+    "correct_answer": "10",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 100,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_28",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_44",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.647 or 7.577?",
+    "correct_answer": "9.647",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.647 is larger"
+  },
+  {
+    "id": "arithmetic_100",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Frank has 5 eggs. Emma has 4 times as many. Carol has 7 fewer than Emma. How many eggs does Carol have?",
+    "correct_answer": "13",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 5,
+      "b": 7,
+      "c": 4
+    }
+  },
+  {
+    "id": "decimal_comp_rand_31",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.8 or 6.849?",
+    "correct_answer": "6.849",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.849 is larger"
+  },
+  {
+    "id": "decimal_comp_4",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 3.14 or 3.2?",
+    "correct_answer": "3.2",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "3.2 > 3.14 because when aligned to same decimal places, 3.200 > 3.140"
+  },
+  {
+    "id": "logic_negation_4",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no novels are books, and Max is a novels, is Max a books?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "arithmetic_26",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Frank has 39 grapes. Carol gives Frank 39 more grapes. How many grapes does Frank have now?",
+    "correct_answer": "78",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 39,
+      "b": 39,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_120",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 16 packs of eggs. Each pack contains 12 eggs. How many eggs does Carol have in total?",
+    "correct_answer": "192",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 16,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_conditional_5",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "arithmetic_133",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 47 packs of flowers. Each pack contains 12 flowers. How many flowers does Carol have in total?",
+    "correct_answer": "564",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 47,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_24",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 10 grapes to distribute equally among 2 friends. How many grapes does each friend get?",
+    "correct_answer": "5",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 10,
+      "b": 2,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_sequence_11",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 10, 20, 30, 40, 50?",
+    "correct_answer": "60",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 10"
+  },
+  {
+    "id": "decimal_comp_rand_0",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.4 or 7.4?",
+    "correct_answer": "7.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.4 is larger"
+  },
+  {
+    "id": "arithmetic_60",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 44 packs of apples. Each pack contains 11 apples. How many apples does Grace have in total?",
+    "correct_answer": "484",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 44,
+      "b": 11,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_28",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no tomatoes are vegetables, and Daisy is a tomatoes, is Daisy a vegetables?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "decimal_comp_rand_86",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.3 or 0.1?",
+    "correct_answer": "8.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.3 is larger"
+  },
+  {
+    "id": "logic_sequence_19",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 16, 21, 26, 31, 36?",
+    "correct_answer": "41",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 5"
+  },
+  {
+    "id": "arithmetic_114",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 12 grapes to distribute equally among 6 friends. How many grapes does each friend get?",
+    "correct_answer": "2",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 6,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_138",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Emma buys 16 packs of apples. Each pack contains 14 apples. How many apples does Emma have in total?",
+    "correct_answer": "224",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 16,
+      "b": 14,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_81",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "David has 40 cookies to distribute equally among 8 friends. How many cookies does each friend get?",
+    "correct_answer": "5",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 40,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_22",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.14 or 8.78?",
+    "correct_answer": "9.14",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.14 is larger"
+  },
+  {
+    "id": "decimal_comp_11",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 1.5 greater than 1.45?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "1.5 is not greater than 1.45"
+  },
+  {
+    "id": "trick_var_20",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_37",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 30 grapes. David gives Alice 50 more grapes. How many grapes does Alice have now?",
+    "correct_answer": "80",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 30,
+      "b": 50,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_conditional_29",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "percent_63",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $165 is increased by 33%, then decreased by 33%. What is the final price?",
+    "correct_answer": "$147.03",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $165 - percentage of different bases"
+  },
+  {
+    "id": "logic_sequence_23",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 17, 27, 37, 47, 57?",
+    "correct_answer": "67",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 10"
+  },
+  {
+    "id": "arithmetic_135",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 9 dollars. Carol has 3 times as many. Alice has 8 fewer than Carol. How many dollars does Alice have?",
+    "correct_answer": "19",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 9,
+      "b": 8,
+      "c": 3
+    }
+  },
+  {
+    "id": "logic_sequence_5",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 20, 24, 28, 32, 36?",
+    "correct_answer": "40",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "decimal_comp_rand_73",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.73 or 2.46?",
+    "correct_answer": "6.73",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.73 is larger"
+  },
+  {
+    "id": "logic_sequence_29",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 15, 17, 19, 21, 23?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 2"
+  },
+  {
+    "id": "trick_var_29",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_47",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "David has 126 hats to distribute equally among 9 friends. How many hats does each friend get?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 126,
+      "b": 9,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_57",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.6 or 5.4?",
+    "correct_answer": "5.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.4 is larger"
+  },
+  {
+    "id": "arithmetic_7",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 20 grapes. Emma gives 17 grapes to Alice. How many grapes does Emma have left?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 20,
+      "b": 17,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_94",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 41 cookies. Grace gives 12 cookies to Emma. How many cookies does Grace have left?",
+    "correct_answer": "29",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 41,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_conditional_15",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_76",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Frank has 26 hats. Frank gives 7 hats to Emma. How many hats does Frank have left?",
+    "correct_answer": "19",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 26,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_17",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_1",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.31 or 1.115?",
+    "correct_answer": "2.31",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.31 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_25",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.66 or 7.5?",
+    "correct_answer": "7.5",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.5 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_48",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.9 or 5.91?",
+    "correct_answer": "5.91",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.91 is larger"
+  },
+  {
+    "id": "arithmetic_6",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 29 packs of books. Each pack contains 41 books. How many books does Grace have in total?",
+    "correct_answer": "1189",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 29,
+      "b": 41,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_58",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 28% of 90?",
+    "correct_answer": "25.2",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "arithmetic_16",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 20 grapes. Grace has 3 times as many. Henry has 7 fewer than Grace. How many grapes does Henry have?",
+    "correct_answer": "53",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 20,
+      "b": 7,
+      "c": 3
+    }
+  },
+  {
+    "id": "percent_75",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $165 is increased by 21%, then decreased by 21%. What is the final price?",
+    "correct_answer": "$157.72",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $165 - percentage of different bases"
+  },
+  {
+    "id": "percent_38",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 114 to 112. What is the percentage change?",
+    "correct_answer": "-1.8%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_3",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 55 books. Grace gives 23 books to Carol. How many books does Grace have left?",
+    "correct_answer": "32",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 55,
+      "b": 23,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_sequence_28",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 6, 10, 14, 18, 22?",
+    "correct_answer": "26",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "decimal_comp_rand_30",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.338 or 8.6?",
+    "correct_answer": "8.6",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.6 is larger"
+  },
+  {
+    "id": "logic_negation_17",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some whales are fish, and Daisy is a whales, must Daisy be a fish?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "arithmetic_143",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 56 books to distribute equally among 7 friends. How many books does each friend get?",
+    "correct_answer": "8",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 56,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_69",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Emma buys 48 packs of dollars. Each pack contains 41 dollars. How many dollars does Emma have in total?",
+    "correct_answer": "1968",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 48,
+      "b": 41,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_26",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 54 to 21. What is the percentage change?",
+    "correct_answer": "-61.1%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_84",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Henry has 19 grapes. Carol has 3 times as many. David has 6 fewer than Carol. How many grapes does David have?",
+    "correct_answer": "51",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 19,
+      "b": 6,
+      "c": 3
+    }
+  },
+  {
+    "id": "percent_35",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 101 to 131. What is the percentage change?",
+    "correct_answer": "29.7%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_43",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 13 books. Carol has 3 times as many. Bob has 8 fewer than Carol. How many books does Bob have?",
+    "correct_answer": "31",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 13,
+      "b": 8,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_40",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Bob buys 5 packs of flowers. Each pack contains 31 flowers. How many flowers does Bob have in total?",
+    "correct_answer": "155",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 5,
+      "b": 31,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_49",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.803 or 0.7?",
+    "correct_answer": "0.803",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "0.803 is larger"
+  },
+  {
+    "id": "logic_conditional_10",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_54",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 22 packs of cookies. Each pack contains 7 cookies. How many cookies does Alice have in total?",
+    "correct_answer": "154",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 22,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_80",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.337 or 8.19?",
+    "correct_answer": "8.19",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.19 is larger"
+  },
+  {
+    "id": "arithmetic_117",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 28 apples to distribute equally among 2 friends. How many apples does each friend get?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 2,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_14",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_92",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Bob has 6 eggs. Emma gives Bob 7 more eggs. How many eggs does Bob have now?",
+    "correct_answer": "13",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 6,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_105",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Frank has 41 eggs. Frank gives 17 eggs to Emma. How many eggs does Frank have left?",
+    "correct_answer": "24",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 41,
+      "b": 17,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_56",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.07 or 7.3?",
+    "correct_answer": "7.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.3 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_6",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.1 or 7.6?",
+    "correct_answer": "8.1",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.1 is larger"
+  },
+  {
+    "id": "logic_sequence_22",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 10, 13, 16, 19, 22?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 3"
+  },
+  {
+    "id": "percent_40",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 44% of 62?",
+    "correct_answer": "27.28",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "arithmetic_112",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 11 books. David gives Alice 20 more books. How many books does Alice have now?",
+    "correct_answer": "31",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 11,
+      "b": 20,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_32",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 10 packs of eggs. Each pack contains 35 eggs. How many eggs does Grace have in total?",
+    "correct_answer": "350",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 10,
+      "b": 35,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_87",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Frank has 32 hats. Frank gives 17 hats to Henry. How many hats does Frank have left?",
+    "correct_answer": "15",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 17,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_sequence_20",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 8, 12, 16, 20, 24?",
+    "correct_answer": "28",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "arithmetic_5",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 64 grapes. Emma gives 47 grapes to Alice. How many grapes does Emma have left?",
+    "correct_answer": "17",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 64,
+      "b": 47,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_127",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 44 packs of eggs. Each pack contains 45 eggs. How many eggs does Carol have in total?",
+    "correct_answer": "1980",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 44,
+      "b": 45,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_34",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "David has 20 cookies. Bob gives David 13 more cookies. How many cookies does David have now?",
+    "correct_answer": "33",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 20,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_27",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $138 is increased by 25%, then decreased by 25%. What is the final price?",
+    "correct_answer": "$129.38",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $138 - percentage of different bases"
+  },
+  {
+    "id": "arithmetic_28",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 60 grapes to distribute equally among 4 friends. How many grapes does each friend get?",
+    "correct_answer": "15",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 60,
+      "b": 4,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_9",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no squares are rectangles, and Max is a squares, is Max a rectangles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_conditional_21",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "arithmetic_134",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 12 grapes to distribute equally among 2 friends. How many grapes does each friend get?",
+    "correct_answer": "6",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 2,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_15",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 4.8 greater than 4.789?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "4.8 is not greater than 4.789"
+  },
+  {
+    "id": "percent_30",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $189 is increased by 31%, then decreased by 31%. What is the final price?",
+    "correct_answer": "$170.84",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $189 - percentage of different bases"
+  },
+  {
+    "id": "logic_conditional_16",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_93",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 32 packs of flowers. Each pack contains 14 flowers. How many flowers does Alice have in total?",
+    "correct_answer": "448",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 14,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_22",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some dogs are mammals, and Rex is a dogs, must Rex be a mammals?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "decimal_comp_rand_83",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.796 or 2.19?",
+    "correct_answer": "2.796",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.796 is larger"
+  },
+  {
+    "id": "logic_sequence_3",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 18, 26, 34, 42, 50?",
+    "correct_answer": "58",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 8"
+  },
+  {
+    "id": "arithmetic_15",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 34 books. Carol gives Alice 31 more books. How many books does Alice have now?",
+    "correct_answer": "65",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 34,
+      "b": 31,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_25",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all novels are books, and Rex is not a books, is Rex a novels?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "trick_var_46",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_23",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 0.7 greater than 0.699?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "0.7 is not greater than 0.699"
+  },
+  {
+    "id": "decimal_comp_rand_17",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.373 or 0.807?",
+    "correct_answer": "9.373",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.373 is larger"
+  },
+  {
+    "id": "decimal_comp_14",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 4.8 or 4.789?",
+    "correct_answer": "4.789",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "4.789 > 4.8 because when aligned to same decimal places, 4.789 > 4.800"
+  },
+  {
+    "id": "decimal_comp_21",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 6.3 greater than 6.29?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "6.3 is not greater than 6.29"
+  },
+  {
+    "id": "logic_negation_18",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some novels are books, and Daisy is a novels, must Daisy be a books?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "arithmetic_52",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 95 eggs. David gives 68 eggs to Grace. How many eggs does David have left?",
+    "correct_answer": "27",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 95,
+      "b": 68,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_conditional_9",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is wet. Did it rain?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Affirming the consequent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "percent_52",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 66% of 159?",
+    "correct_answer": "104.94",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "logic_conditional_19",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "logic_sequence_7",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 19, 23, 27, 31, 35?",
+    "correct_answer": "39",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 4"
+  },
+  {
+    "id": "decimal_comp_rand_63",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.73 or 2.924?",
+    "correct_answer": "2.924",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.924 is larger"
+  },
+  {
+    "id": "percent_19",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 20% of 156?",
+    "correct_answer": "31.2",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "logic_negation_27",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some tomatoes are vegetables, and Bella is a tomatoes, must Bella be a vegetables?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_conditional_3",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "decimal_comp_rand_62",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.0 or 3.85?",
+    "correct_answer": "9.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.0 is larger"
+  },
+  {
+    "id": "percent_41",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 81 to 142. What is the percentage change?",
+    "correct_answer": "75.3%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_24",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $61 is increased by 50%, then decreased by 50%. What is the final price?",
+    "correct_answer": "$45.75",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $61 - percentage of different bases"
+  },
+  {
+    "id": "decimal_comp_rand_23",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.21 or 4.017?",
+    "correct_answer": "4.017",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.017 is larger"
+  },
+  {
+    "id": "logic_negation_3",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no squares are rectangles, and Charlie is a squares, is Charlie a rectangles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "logic_conditional_14",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "percent_18",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $111 is increased by 46%, then decreased by 46%. What is the final price?",
+    "correct_answer": "$87.51",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $111 - percentage of different bases"
+  },
+  {
+    "id": "logic_conditional_20",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "percent_43",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 33% of 148?",
+    "correct_answer": "48.84",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "arithmetic_20",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Henry has 55 dollars. Henry gives 50 dollars to David. How many dollars does Henry have left?",
+    "correct_answer": "5",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 55,
+      "b": 50,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_31",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 71% of 94?",
+    "correct_answer": "66.74",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "logic_conditional_25",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "decimal_comp_rand_76",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 10.0 or 0.8?",
+    "correct_answer": "10.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "10.0 is larger"
+  },
+  {
+    "id": "arithmetic_8",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 15 books. Carol has 4 times as many. Frank has 10 fewer than Carol. How many books does Frank have?",
+    "correct_answer": "50",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 15,
+      "b": 10,
+      "c": 4
+    }
+  },
+  {
+    "id": "decimal_comp_rand_16",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 3.8 or 6.735?",
+    "correct_answer": "6.735",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.735 is larger"
+  },
+  {
+    "id": "arithmetic_25",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 72 apples to distribute equally among 8 friends. How many apples does each friend get?",
+    "correct_answer": "9",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 72,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_20",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 184 to 151. What is the percentage change?",
+    "correct_answer": "-17.9%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_57",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Henry buys 36 packs of grapes. Each pack contains 9 grapes. How many grapes does Henry have in total?",
+    "correct_answer": "324",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 36,
+      "b": 9,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_91",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.4 or 3.2?",
+    "correct_answer": "4.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.4 is larger"
+  },
+  {
+    "id": "trick_0",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A bat and ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "correct_answer": "$0.05",
+    "wrong_intuitive_answer": "$0.10",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "If ball = x, bat = x + 1.00, so x + (x + 1.00) = 1.10, thus 2x = 0.10, x = 0.05"
+  },
+  {
+    "id": "arithmetic_45",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "David has 66 flowers to distribute equally among 6 friends. How many flowers does each friend get?",
+    "correct_answer": "11",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 66,
+      "b": 6,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_58",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.28 or 4.7?",
+    "correct_answer": "4.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.7 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_60",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 10.0 or 9.7?",
+    "correct_answer": "10.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "10.0 is larger"
+  },
+  {
+    "id": "arithmetic_35",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 84 hats to distribute equally among 6 friends. How many hats does each friend get?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 84,
+      "b": 6,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_54",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.62 or 4.29?",
+    "correct_answer": "6.62",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.62 is larger"
+  },
+  {
+    "id": "arithmetic_145",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 5 packs of apples. Each pack contains 18 apples. How many apples does Alice have in total?",
+    "correct_answer": "90",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 5,
+      "b": 18,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_39",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.21 or 8.8?",
+    "correct_answer": "8.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.8 is larger"
+  },
+  {
+    "id": "percent_12",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $66 is increased by 17%, then decreased by 17%. What is the final price?",
+    "correct_answer": "$64.09",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $66 - percentage of different bases"
+  },
+  {
+    "id": "decimal_comp_rand_4",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.4 or 7.189?",
+    "correct_answer": "7.189",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.189 is larger"
+  },
+  {
+    "id": "arithmetic_137",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 13 apples. Henry has 3 times as many. Emma has 1 fewer than Henry. How many apples does Emma have?",
+    "correct_answer": "38",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 13,
+      "b": 1,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_101",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 23 hats. Frank gives Alice 19 more hats. How many hats does Alice have now?",
+    "correct_answer": "42",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 23,
+      "b": 19,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_60",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $67 is increased by 25%, then decreased by 25%. What is the final price?",
+    "correct_answer": "$62.81",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $67 - percentage of different bases"
+  },
+  {
+    "id": "percent_48",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $189 is increased by 28%, then decreased by 28%. What is the final price?",
+    "correct_answer": "$174.18",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $189 - percentage of different bases"
+  },
+  {
+    "id": "decimal_comp_rand_69",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.8 or 6.8?",
+    "correct_answer": "6.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.8 is larger"
+  },
+  {
+    "id": "logic_conditional_0",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "logic_conditional_27",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "percent_61",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 59% of 143?",
+    "correct_answer": "84.37",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "trick_var_36",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "percent_11",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 111 to 178. What is the percentage change?",
+    "correct_answer": "60.4%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "decimal_comp_rand_41",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.95 or 8.179?",
+    "correct_answer": "8.179",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.179 is larger"
+  },
+  {
+    "id": "arithmetic_56",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 15 hats. David has 2 times as many. Frank has 3 fewer than David. How many hats does Frank have?",
+    "correct_answer": "27",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 15,
+      "b": 3,
+      "c": 2
+    }
+  },
+  {
+    "id": "arithmetic_144",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 38 hats. Grace gives Emma 47 more hats. How many hats does Emma have now?",
+    "correct_answer": "85",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 38,
+      "b": 47,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_sequence_18",
+    "type": "logic_puzzle",
+    "subtype": "sequence",
+    "question": "What comes next in the sequence: 7, 14, 21, 28, 35?",
+    "correct_answer": "42",
+    "difficulty": "medium",
+    "flip_risk": "medium",
+    "explanation": "Arithmetic sequence with difference 7"
+  },
+  {
+    "id": "arithmetic_118",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "David buys 9 packs of dollars. Each pack contains 40 dollars. How many dollars does David have in total?",
+    "correct_answer": "360",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 9,
+      "b": 40,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_110",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Henry has 98 flowers. Henry gives 29 flowers to Alice. How many flowers does Henry have left?",
+    "correct_answer": "69",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 98,
+      "b": 29,
+      "c": null
+    }
+  },
+  {
+    "id": "percent_44",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 177 to 221. What is the percentage change?",
+    "correct_answer": "24.9%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "logic_conditional_28",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. It didn't rain. Is the ground wet?",
+    "correct_answer": "Not necessarily",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Denying the antecedent fallacy - other things can make the ground wet."
+  },
+  {
+    "id": "arithmetic_42",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 79 hats. Emma gives 56 hats to Frank. How many hats does Emma have left?",
+    "correct_answer": "23",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 79,
+      "b": 56,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_40",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.5 or 8.8?",
+    "correct_answer": "8.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.8 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_13",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.789 or 2.36?",
+    "correct_answer": "2.36",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.36 is larger"
+  },
+  {
+    "id": "logic_negation_24",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no whales are fish, and Max is a whales, is Max a fish?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "percent_8",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 185 to 163. What is the percentage change?",
+    "correct_answer": "-11.9%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "arithmetic_89",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Emma has 45 grapes to distribute equally among 3 friends. How many grapes does each friend get?",
+    "correct_answer": "15",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 45,
+      "b": 3,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_30",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_90",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 39 packs of hats. Each pack contains 7 hats. How many hats does Grace have in total?",
+    "correct_answer": "273",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 39,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_149",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Grace has 25 books. Alice gives Grace 41 more books. How many books does Grace have now?",
+    "correct_answer": "66",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 25,
+      "b": 41,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_125",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Henry buys 35 packs of apples. Each pack contains 30 apples. How many apples does Henry have in total?",
+    "correct_answer": "1050",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 35,
+      "b": 30,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_5",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "wrong_intuitive_answer": "2",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "You took 4 apples, so you have 4 apples"
+  },
+  {
+    "id": "trick_4",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "wrong_intuitive_answer": "5",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "After subtracting once, you have 20, not 25. You can only subtract 5 from 25 once."
+  },
+  {
+    "id": "arithmetic_83",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 14 hats. Grace gives Emma 33 more hats. How many hats does Emma have now?",
+    "correct_answer": "47",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 14,
+      "b": 33,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_38",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Bob has 33 dollars. Bob gives 20 dollars to Frank. How many dollars does Bob have left?",
+    "correct_answer": "13",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 33,
+      "b": 20,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_9",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.06 or 6.1?",
+    "correct_answer": "6.1",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.1 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_20",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.9 or 2.4?",
+    "correct_answer": "6.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.9 is larger"
+  },
+  {
+    "id": "percent_39",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $123 is increased by 32%, then decreased by 32%. What is the final price?",
+    "correct_answer": "$110.4",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $123 - percentage of different bases"
+  },
+  {
+    "id": "logic_conditional_13",
+    "type": "logic_puzzle",
+    "subtype": "conditional",
+    "question": "If it rains, the ground gets wet. The ground is not wet. Did it rain?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Modus tollens - if consequence is false, antecedent must be false."
+  },
+  {
+    "id": "decimal_comp_rand_42",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.7 or 6.632?",
+    "correct_answer": "7.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.7 is larger"
+  },
+  {
+    "id": "logic_negation_12",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If no squares are rectangles, and Luna is a squares, is Luna a rectangles?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If no A are B, then any A cannot be B."
+  },
+  {
+    "id": "trick_var_48",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_119",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 38 flowers. David gives 1 flowers to Henry. How many flowers does David have left?",
+    "correct_answer": "37",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 38,
+      "b": 1,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_68",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Henry has 104 apples to distribute equally among 8 friends. How many apples does each friend get?",
+    "correct_answer": "13",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 104,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "logic_negation_23",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If some roses are flowers, and Rex is a roses, must Rex be a flowers?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "Some A are B doesn't mean all A are B."
+  },
+  {
+    "id": "logic_negation_13",
+    "type": "logic_puzzle",
+    "subtype": "negation",
+    "question": "If all squares are rectangles, and Rex is not a rectangles, is Rex a squares?",
+    "correct_answer": "No",
+    "difficulty": "hard",
+    "flip_risk": "high",
+    "explanation": "If all A are B, then anything that is not B cannot be A."
+  },
+  {
+    "id": "arithmetic_64",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "David has 32 dollars. Carol gives David 12 more dollars. How many dollars does David have now?",
+    "correct_answer": "44",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_13",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 2.7 greater than 2.65?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "2.7 is not greater than 2.65"
+  },
+  {
+    "id": "arithmetic_132",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 24 books to distribute equally among 8 friends. How many books does each friend get?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 24,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "trick_var_41",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "arithmetic_1",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Grace has 19 hats. Henry gives Grace 17 more hats. How many hats does Grace have now?",
+    "correct_answer": "36",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 19,
+      "b": 17,
+      "c": null
+    }
+  },
+  {
+    "id": "decimal_comp_rand_47",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.3 or 0.7?",
+    "correct_answer": "1.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "1.3 is larger"
+  },
+  {
+    "id": "trick_var_42",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A bat and ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "correct_answer": "$0.05",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "decimal_comp_rand_78",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.8 or 2.92?",
+    "correct_answer": "8.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.8 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_38",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.193 or 3.3?",
+    "correct_answer": "9.193",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.193 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_90",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.46 or 5.9?",
+    "correct_answer": "5.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.9 is larger"
+  },
+  {
+    "id": "arithmetic_140",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 42 cookies to distribute equally among 7 friends. How many cookies does each friend get?",
+    "correct_answer": "6",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_65",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 9 eggs. Grace has 2 times as many. Bob has 2 fewer than Grace. How many eggs does Bob have?",
+    "correct_answer": "16",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 9,
+      "b": 2,
+      "c": 2
+    }
+  },
+  {
+    "id": "trick_var_43",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  }
+]

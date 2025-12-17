@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "decimal_comp_0",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 9.11 or 9.8?",
+    "correct_answer": "9.8",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "9.8 > 9.11 because when aligned to same decimal places, 9.800 > 9.110"
+  },
+  {
+    "id": "decimal_comp_1",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 9.11 greater than 9.8?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "9.11 is not greater than 9.8"
+  },
+  {
+    "id": "decimal_comp_2",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 9.9 or 9.81?",
+    "correct_answer": "9.81",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "9.81 > 9.9 because when aligned to same decimal places, 9.810 > 9.900"
+  },
+  {
+    "id": "decimal_comp_3",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 9.9 greater than 9.81?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "9.9 is not greater than 9.81"
+  },
+  {
+    "id": "decimal_comp_4",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 3.14 or 3.2?",
+    "correct_answer": "3.2",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "3.2 > 3.14 because when aligned to same decimal places, 3.200 > 3.140"
+  },
+  {
+    "id": "decimal_comp_5",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 3.14 greater than 3.2?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "3.14 is not greater than 3.2"
+  },
+  {
+    "id": "decimal_comp_6",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 7.123 or 7.2?",
+    "correct_answer": "7.2",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "7.2 > 7.123 because when aligned to same decimal places, 7.200 > 7.123"
+  },
+  {
+    "id": "decimal_comp_7",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 7.123 greater than 7.2?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "7.123 is not greater than 7.2"
+  },
+  {
+    "id": "decimal_comp_8",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 0.9 or 0.85?",
+    "correct_answer": "0.85",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "0.85 > 0.9 because when aligned to same decimal places, 0.850 > 0.900"
+  },
+  {
+    "id": "decimal_comp_9",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 0.9 greater than 0.85?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "0.9 is not greater than 0.85"
+  },
+  {
+    "id": "decimal_comp_10",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 1.5 or 1.45?",
+    "correct_answer": "1.45",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "1.45 > 1.5 because when aligned to same decimal places, 1.450 > 1.500"
+  },
+  {
+    "id": "decimal_comp_11",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 1.5 greater than 1.45?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "1.5 is not greater than 1.45"
+  },
+  {
+    "id": "decimal_comp_12",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 2.7 or 2.65?",
+    "correct_answer": "2.65",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "2.65 > 2.7 because when aligned to same decimal places, 2.650 > 2.700"
+  },
+  {
+    "id": "decimal_comp_13",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 2.7 greater than 2.65?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "2.7 is not greater than 2.65"
+  },
+  {
+    "id": "decimal_comp_14",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 4.8 or 4.789?",
+    "correct_answer": "4.789",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "4.789 > 4.8 because when aligned to same decimal places, 4.789 > 4.800"
+  },
+  {
+    "id": "decimal_comp_15",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 4.8 greater than 4.789?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "4.8 is not greater than 4.789"
+  },
+  {
+    "id": "decimal_comp_16",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 5.6 or 5.59?",
+    "correct_answer": "5.59",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "5.59 > 5.6 because when aligned to same decimal places, 5.590 > 5.600"
+  },
+  {
+    "id": "decimal_comp_17",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 5.6 greater than 5.59?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "5.6 is not greater than 5.59"
+  },
+  {
+    "id": "decimal_comp_18",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 8.1 or 8.099?",
+    "correct_answer": "8.099",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "8.099 > 8.1 because when aligned to same decimal places, 8.099 > 8.100"
+  },
+  {
+    "id": "decimal_comp_19",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 8.1 greater than 8.099?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "8.1 is not greater than 8.099"
+  },
+  {
+    "id": "decimal_comp_20",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 6.3 or 6.29?",
+    "correct_answer": "6.29",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "6.29 > 6.3 because when aligned to same decimal places, 6.290 > 6.300"
+  },
+  {
+    "id": "decimal_comp_21",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 6.3 greater than 6.29?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "6.3 is not greater than 6.29"
+  },
+  {
+    "id": "decimal_comp_22",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Which is larger: 0.7 or 0.699?",
+    "correct_answer": "0.699",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "0.699 > 0.7 because when aligned to same decimal places, 0.699 > 0.700"
+  },
+  {
+    "id": "decimal_comp_23",
+    "type": "decimal_comparison",
+    "subtype": "tricky_digits",
+    "question": "Is 0.7 greater than 0.699?",
+    "correct_answer": "No",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "0.7 is not greater than 0.699"
+  },
+  {
+    "id": "decimal_comp_rand_0",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.4 or 7.4?",
+    "correct_answer": "7.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.4 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_1",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.31 or 1.115?",
+    "correct_answer": "2.31",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.31 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_2",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.9 or 5.9?",
+    "correct_answer": "8.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.9 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_3",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.4 or 2.403?",
+    "correct_answer": "2.403",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.403 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_4",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.4 or 7.189?",
+    "correct_answer": "7.189",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.189 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_5",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.5 or 4.55?",
+    "correct_answer": "5.5",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.5 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_6",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.1 or 7.6?",
+    "correct_answer": "8.1",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.1 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_7",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.01 or 2.9?",
+    "correct_answer": "7.01",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.01 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_8",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.58 or 1.11?",
+    "correct_answer": "9.58",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.58 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_9",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.06 or 6.1?",
+    "correct_answer": "6.1",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.1 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_10",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.324 or 1.34?",
+    "correct_answer": "7.324",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.324 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_11",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.88 or 8.311?",
+    "correct_answer": "8.311",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.311 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_12",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.87 or 5.816?",
+    "correct_answer": "8.87",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.87 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_13",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.789 or 2.36?",
+    "correct_answer": "2.36",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.36 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_14",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.9 or 8.68?",
+    "correct_answer": "9.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.9 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_15",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.852 or 8.4?",
+    "correct_answer": "8.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.4 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_16",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 3.8 or 6.735?",
+    "correct_answer": "6.735",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.735 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_17",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.373 or 0.807?",
+    "correct_answer": "9.373",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.373 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_18",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.794 or 2.52?",
+    "correct_answer": "2.52",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.52 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_19",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 3.857 or 6.9?",
+    "correct_answer": "6.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.9 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_20",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.9 or 2.4?",
+    "correct_answer": "6.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.9 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_21",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.07 or 2.8?",
+    "correct_answer": "8.07",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.07 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_22",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.14 or 8.78?",
+    "correct_answer": "9.14",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.14 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_23",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.21 or 4.017?",
+    "correct_answer": "4.017",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.017 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_24",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.64 or 1.482?",
+    "correct_answer": "4.64",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.64 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_25",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.66 or 7.5?",
+    "correct_answer": "7.5",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.5 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_26",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.99 or 3.7?",
+    "correct_answer": "8.99",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.99 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_27",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.1 or 7.6?",
+    "correct_answer": "7.6",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.6 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_28",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.6 or 7.94?",
+    "correct_answer": "7.94",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.94 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_29",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.0 or 3.88?",
+    "correct_answer": "6.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.0 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_30",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.338 or 8.6?",
+    "correct_answer": "8.6",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.6 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_31",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.8 or 6.849?",
+    "correct_answer": "6.849",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.849 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_32",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.534 or 3.47?",
+    "correct_answer": "7.534",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.534 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_33",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.4 or 0.132?",
+    "correct_answer": "4.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.4 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_34",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.77 or 9.7?",
+    "correct_answer": "9.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.7 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_35",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.1 or 8.72?",
+    "correct_answer": "8.72",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.72 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_36",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.433 or 6.1?",
+    "correct_answer": "8.433",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.433 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_37",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 3.8 or 5.44?",
+    "correct_answer": "5.44",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.44 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_38",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.193 or 3.3?",
+    "correct_answer": "9.193",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.193 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_39",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.21 or 8.8?",
+    "correct_answer": "8.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.8 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_40",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.5 or 8.8?",
+    "correct_answer": "8.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.8 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_41",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.95 or 8.179?",
+    "correct_answer": "8.179",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.179 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_42",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.7 or 6.632?",
+    "correct_answer": "7.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.7 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_43",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.735 or 8.74?",
+    "correct_answer": "8.74",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.74 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_44",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.647 or 7.577?",
+    "correct_answer": "9.647",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.647 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_45",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.09 or 4.05?",
+    "correct_answer": "4.05",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.05 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_46",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.53 or 9.01?",
+    "correct_answer": "9.01",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.01 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_47",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.3 or 0.7?",
+    "correct_answer": "1.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "1.3 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_48",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.9 or 5.91?",
+    "correct_answer": "5.91",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.91 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_49",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.803 or 0.7?",
+    "correct_answer": "0.803",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "0.803 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_50",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.06 or 0.8?",
+    "correct_answer": "9.06",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.06 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_51",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.86 or 2.2?",
+    "correct_answer": "2.86",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.86 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_52",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.261 or 5.8?",
+    "correct_answer": "7.261",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.261 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_53",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 7.87 or 2.0?",
+    "correct_answer": "7.87",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.87 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_54",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.62 or 4.29?",
+    "correct_answer": "6.62",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.62 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_55",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.7 or 6.766?",
+    "correct_answer": "8.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.7 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_56",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.07 or 7.3?",
+    "correct_answer": "7.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.3 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_57",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.6 or 5.4?",
+    "correct_answer": "5.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.4 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_58",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.28 or 4.7?",
+    "correct_answer": "4.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.7 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_59",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.487 or 1.069?",
+    "correct_answer": "4.487",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.487 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_60",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 10.0 or 9.7?",
+    "correct_answer": "10.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "10.0 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_61",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.75 or 4.87?",
+    "correct_answer": "4.87",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.87 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_62",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.0 or 3.85?",
+    "correct_answer": "9.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.0 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_63",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.73 or 2.924?",
+    "correct_answer": "2.924",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.924 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_64",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.577 or 6.65?",
+    "correct_answer": "9.577",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.577 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_65",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.63 or 2.3?",
+    "correct_answer": "2.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.3 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_66",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.834 or 0.7?",
+    "correct_answer": "5.834",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.834 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_67",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.666 or 4.82?",
+    "correct_answer": "4.82",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.82 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_68",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.659 or 0.9?",
+    "correct_answer": "1.659",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "1.659 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_69",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.8 or 6.8?",
+    "correct_answer": "6.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.8 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_70",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.097 or 2.538?",
+    "correct_answer": "4.097",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.097 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_71",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.5 or 4.25?",
+    "correct_answer": "4.25",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.25 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_72",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.7 or 9.4?",
+    "correct_answer": "9.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.4 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_73",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.73 or 2.46?",
+    "correct_answer": "6.73",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.73 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_74",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.396 or 3.07?",
+    "correct_answer": "3.07",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "3.07 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_75",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.3 or 0.192?",
+    "correct_answer": "9.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.3 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_76",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 10.0 or 0.8?",
+    "correct_answer": "10.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "10.0 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_77",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.1 or 9.3?",
+    "correct_answer": "9.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.3 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_78",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.8 or 2.92?",
+    "correct_answer": "8.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.8 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_79",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.354 or 3.095?",
+    "correct_answer": "8.354",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.354 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_80",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.337 or 8.19?",
+    "correct_answer": "8.19",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.19 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_81",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.3 or 9.4?",
+    "correct_answer": "9.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.4 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_82",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.7 or 7.4?",
+    "correct_answer": "7.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "7.4 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_83",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.796 or 2.19?",
+    "correct_answer": "2.796",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "2.796 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_84",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 2.116 or 8.544?",
+    "correct_answer": "8.544",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.544 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_85",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.9 or 1.01?",
+    "correct_answer": "4.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.9 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_86",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.3 or 0.1?",
+    "correct_answer": "8.3",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.3 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_87",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 6.41 or 1.7?",
+    "correct_answer": "6.41",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "6.41 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_88",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 5.56 or 5.7?",
+    "correct_answer": "5.7",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.7 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_89",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.845 or 9.049?",
+    "correct_answer": "9.049",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.049 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_90",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 0.46 or 5.9?",
+    "correct_answer": "5.9",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "5.9 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_91",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 4.4 or 3.2?",
+    "correct_answer": "4.4",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "4.4 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_92",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.0 or 6.852?",
+    "correct_answer": "9.0",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.0 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_93",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 1.118 or 8.85?",
+    "correct_answer": "8.85",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.85 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_94",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 9.741 or 1.6?",
+    "correct_answer": "9.741",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "9.741 is larger"
+  },
+  {
+    "id": "decimal_comp_rand_95",
+    "type": "decimal_comparison",
+    "subtype": "random",
+    "question": "Which number is larger: 8.7 or 8.8?",
+    "correct_answer": "8.8",
+    "difficulty": "easy",
+    "flip_risk": "low",
+    "explanation": "8.8 is larger"
+  }
+]

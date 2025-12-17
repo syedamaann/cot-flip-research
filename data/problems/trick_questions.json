@@ -1,0 +1,468 @@
+[
+  {
+    "id": "trick_0",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A bat and ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "correct_answer": "$0.05",
+    "wrong_intuitive_answer": "$0.10",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "If ball = x, bat = x + 1.00, so x + (x + 1.00) = 1.10, thus 2x = 0.10, x = 0.05"
+  },
+  {
+    "id": "trick_1",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "wrong_intuitive_answer": "100 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "Each machine makes 1 widget in 5 minutes, so 100 machines make 100 widgets in 5 minutes"
+  },
+  {
+    "id": "trick_2",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "wrong_intuitive_answer": "24 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "If it doubles each day, it was half covered the day before it was fully covered"
+  },
+  {
+    "id": "trick_3",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "wrong_intuitive_answer": "8",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "'All but 9' means 9 remain"
+  },
+  {
+    "id": "trick_4",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "wrong_intuitive_answer": "5",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "After subtracting once, you have 20, not 25. You can only subtract 5 from 25 once."
+  },
+  {
+    "id": "trick_5",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "wrong_intuitive_answer": "2",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "You took 4 apples, so you have 4 apples"
+  },
+  {
+    "id": "trick_6",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "wrong_intuitive_answer": "A number in pounds",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "A butcher weighs meat"
+  },
+  {
+    "id": "trick_7",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "wrong_intuitive_answer": "K2 or another mountain",
+    "difficulty": "hard",
+    "flip_risk": "very_high",
+    "explanation": "Mt. Everest was still the highest, it just hadn't been discovered yet"
+  },
+  {
+    "id": "trick_var_8",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_9",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_10",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_11",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_12",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_13",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_14",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_15",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_16",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_17",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_18",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_19",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_20",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_21",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_22",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_23",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_24",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A bat and ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "correct_answer": "$0.05",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_25",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_26",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_27",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_28",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_29",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_30",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_31",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_32",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "How many times can you subtract 5 from 25?",
+    "correct_answer": "1",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_33",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_34",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?",
+    "correct_answer": "47 days",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_35",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_36",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_37",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_38",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
+    "correct_answer": "Mt. Everest",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_39",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_40",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A bat and ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "correct_answer": "$0.05",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_41",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_42",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A bat and ball cost $1.10 together. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "correct_answer": "$0.05",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_43",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_44",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_45",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_46",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A clerk at a butcher shop stands five feet ten inches tall and wears size 13 sneakers. What does he weigh?",
+    "correct_answer": "Meat",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_47",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "correct_answer": "5 minutes",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_48",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "If you have a bowl with six apples and you take away four, how many do you have?",
+    "correct_answer": "4",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  },
+  {
+    "id": "trick_var_49",
+    "type": "trick_question",
+    "subtype": "cognitive_reflection",
+    "question": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "correct_answer": "9",
+    "difficulty": "hard",
+    "flip_risk": "very_high"
+  }
+]

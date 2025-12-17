@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "arithmetic_0",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Frank has 54 dollars. Frank gives 11 dollars to Henry. How many dollars does Frank have left?",
+    "correct_answer": "43",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 54,
+      "b": 11,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_1",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Grace has 19 hats. Henry gives Grace 17 more hats. How many hats does Grace have now?",
+    "correct_answer": "36",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 19,
+      "b": 17,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_2",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 24 dollars to distribute equally among 2 friends. How many dollars does each friend get?",
+    "correct_answer": "12",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 24,
+      "b": 2,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_3",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 55 books. Grace gives 23 books to Carol. How many books does Grace have left?",
+    "correct_answer": "32",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 55,
+      "b": 23,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_4",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Grace has 5 flowers. Frank has 4 times as many. Emma has 2 fewer than Frank. How many flowers does Emma have?",
+    "correct_answer": "18",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 5,
+      "b": 2,
+      "c": 4
+    }
+  },
+  {
+    "id": "arithmetic_5",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 64 grapes. Emma gives 47 grapes to Alice. How many grapes does Emma have left?",
+    "correct_answer": "17",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 64,
+      "b": 47,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_6",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 29 packs of books. Each pack contains 41 books. How many books does Grace have in total?",
+    "correct_answer": "1189",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 29,
+      "b": 41,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_7",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 20 grapes. Emma gives 17 grapes to Alice. How many grapes does Emma have left?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 20,
+      "b": 17,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_8",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 15 books. Carol has 4 times as many. Frank has 10 fewer than Carol. How many books does Frank have?",
+    "correct_answer": "50",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 15,
+      "b": 10,
+      "c": 4
+    }
+  },
+  {
+    "id": "arithmetic_9",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 25 grapes. Frank gives Emma 30 more grapes. How many grapes does Emma have now?",
+    "correct_answer": "55",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 25,
+      "b": 30,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_10",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 48 packs of grapes. Each pack contains 16 grapes. How many grapes does Carol have in total?",
+    "correct_answer": "768",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 48,
+      "b": 16,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_11",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 14 apples. David has 3 times as many. Grace has 5 fewer than David. How many apples does Grace have?",
+    "correct_answer": "37",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 14,
+      "b": 5,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_12",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 50 hats to distribute equally among 5 friends. How many hats does each friend get?",
+    "correct_answer": "10",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 50,
+      "b": 5,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_13",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Carol has 120 eggs to distribute equally among 10 friends. How many eggs does each friend get?",
+    "correct_answer": "12",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 120,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_14",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Frank has 12 eggs. Alice has 3 times as many. Carol has 4 fewer than Alice. How many eggs does Carol have?",
+    "correct_answer": "32",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 12,
+      "b": 4,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_15",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 34 books. Carol gives Alice 31 more books. How many books does Alice have now?",
+    "correct_answer": "65",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 34,
+      "b": 31,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_16",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 20 grapes. Grace has 3 times as many. Henry has 7 fewer than Grace. How many grapes does Henry have?",
+    "correct_answer": "53",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 20,
+      "b": 7,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_17",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Alice has 48 grapes. Alice gives 12 grapes to Henry. How many grapes does Alice have left?",
+    "correct_answer": "36",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 48,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_18",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Henry has 8 dollars. Alice has 3 times as many. Frank has 8 fewer than Alice. How many dollars does Frank have?",
+    "correct_answer": "16",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 8,
+      "b": 8,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_19",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 90 grapes to distribute equally among 10 friends. How many grapes does each friend get?",
+    "correct_answer": "9",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 90,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_20",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Henry has 55 dollars. Henry gives 50 dollars to David. How many dollars does Henry have left?",
+    "correct_answer": "5",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 55,
+      "b": 50,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_21",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Henry has 19 eggs. Frank has 4 times as many. Bob has 2 fewer than Frank. How many eggs does Bob have?",
+    "correct_answer": "74",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 19,
+      "b": 2,
+      "c": 4
+    }
+  },
+  {
+    "id": "arithmetic_22",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 37 books. Emma gives 10 books to Carol. How many books does Emma have left?",
+    "correct_answer": "27",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 37,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_23",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 28 dollars. Grace gives 14 dollars to Frank. How many dollars does Grace have left?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 14,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_24",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 10 grapes to distribute equally among 2 friends. How many grapes does each friend get?",
+    "correct_answer": "5",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 10,
+      "b": 2,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_25",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 72 apples to distribute equally among 8 friends. How many apples does each friend get?",
+    "correct_answer": "9",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 72,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_26",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Frank has 39 grapes. Carol gives Frank 39 more grapes. How many grapes does Frank have now?",
+    "correct_answer": "78",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 39,
+      "b": 39,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_27",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 18 eggs. Emma has 2 times as many. Bob has 8 fewer than Emma. How many eggs does Bob have?",
+    "correct_answer": "28",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 18,
+      "b": 8,
+      "c": 2
+    }
+  },
+  {
+    "id": "arithmetic_28",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 60 grapes to distribute equally among 4 friends. How many grapes does each friend get?",
+    "correct_answer": "15",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 60,
+      "b": 4,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_29",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Carol has 88 apples to distribute equally among 8 friends. How many apples does each friend get?",
+    "correct_answer": "11",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 88,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_30",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Alice has 9 grapes. Bob has 3 times as many. Henry has 8 fewer than Bob. How many grapes does Henry have?",
+    "correct_answer": "19",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 9,
+      "b": 8,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_31",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 34 dollars. David gives Emma 25 more dollars. How many dollars does Emma have now?",
+    "correct_answer": "59",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 34,
+      "b": 25,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_32",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 10 packs of eggs. Each pack contains 35 eggs. How many eggs does Grace have in total?",
+    "correct_answer": "350",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 10,
+      "b": 35,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_33",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 46 books. David gives Alice 7 more books. How many books does Alice have now?",
+    "correct_answer": "53",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 46,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_34",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "David has 20 cookies. Bob gives David 13 more cookies. How many cookies does David have now?",
+    "correct_answer": "33",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 20,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_35",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 84 hats to distribute equally among 6 friends. How many hats does each friend get?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 84,
+      "b": 6,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_36",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 15 packs of books. Each pack contains 24 books. How many books does Carol have in total?",
+    "correct_answer": "360",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 15,
+      "b": 24,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_37",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 30 grapes. David gives Alice 50 more grapes. How many grapes does Alice have now?",
+    "correct_answer": "80",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 30,
+      "b": 50,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_38",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Bob has 33 dollars. Bob gives 20 dollars to Frank. How many dollars does Bob have left?",
+    "correct_answer": "13",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 33,
+      "b": 20,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_39",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Bob has 16 apples. Henry has 5 times as many. Frank has 9 fewer than Henry. How many apples does Frank have?",
+    "correct_answer": "71",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 16,
+      "b": 9,
+      "c": 5
+    }
+  },
+  {
+    "id": "arithmetic_40",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Bob buys 5 packs of flowers. Each pack contains 31 flowers. How many flowers does Bob have in total?",
+    "correct_answer": "155",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 5,
+      "b": 31,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_41",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 32 hats to distribute equally among 4 friends. How many hats does each friend get?",
+    "correct_answer": "8",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 4,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_42",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 79 hats. Emma gives 56 hats to Frank. How many hats does Emma have left?",
+    "correct_answer": "23",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 79,
+      "b": 56,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_43",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 13 books. Carol has 3 times as many. Bob has 8 fewer than Carol. How many books does Bob have?",
+    "correct_answer": "31",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 13,
+      "b": 8,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_44",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 28 hats to distribute equally among 7 friends. How many hats does each friend get?",
+    "correct_answer": "4",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_45",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "David has 66 flowers to distribute equally among 6 friends. How many flowers does each friend get?",
+    "correct_answer": "11",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 66,
+      "b": 6,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_46",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 20 packs of books. Each pack contains 31 books. How many books does Alice have in total?",
+    "correct_answer": "620",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 20,
+      "b": 31,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_47",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "David has 126 hats to distribute equally among 9 friends. How many hats does each friend get?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 126,
+      "b": 9,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_48",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Bob has 49 grapes. David gives Bob 20 more grapes. How many grapes does Bob have now?",
+    "correct_answer": "69",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 49,
+      "b": 20,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_49",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Frank buys 32 packs of flowers. Each pack contains 40 flowers. How many flowers does Frank have in total?",
+    "correct_answer": "1280",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 40,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_50",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Frank buys 24 packs of eggs. Each pack contains 21 eggs. How many eggs does Frank have in total?",
+    "correct_answer": "504",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 24,
+      "b": 21,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_51",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Bob has 35 flowers. Bob gives 12 flowers to Grace. How many flowers does Bob have left?",
+    "correct_answer": "23",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 35,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_52",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 95 eggs. David gives 68 eggs to Grace. How many eggs does David have left?",
+    "correct_answer": "27",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 95,
+      "b": 68,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_53",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 12 eggs. Alice has 3 times as many. Carol has 6 fewer than Alice. How many eggs does Carol have?",
+    "correct_answer": "30",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 12,
+      "b": 6,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_54",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 22 packs of cookies. Each pack contains 7 cookies. How many cookies does Alice have in total?",
+    "correct_answer": "154",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 22,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_55",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 11 hats. Grace gives Emma 5 more hats. How many hats does Emma have now?",
+    "correct_answer": "16",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 11,
+      "b": 5,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_56",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 15 hats. David has 2 times as many. Frank has 3 fewer than David. How many hats does Frank have?",
+    "correct_answer": "27",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 15,
+      "b": 3,
+      "c": 2
+    }
+  },
+  {
+    "id": "arithmetic_57",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Henry buys 36 packs of grapes. Each pack contains 9 grapes. How many grapes does Henry have in total?",
+    "correct_answer": "324",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 36,
+      "b": 9,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_58",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Alice has 7 eggs. Carol has 2 times as many. David has 4 fewer than Carol. How many eggs does David have?",
+    "correct_answer": "10",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 7,
+      "b": 4,
+      "c": 2
+    }
+  },
+  {
+    "id": "arithmetic_59",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Grace has 17 dollars. Emma has 5 times as many. Frank has 8 fewer than Emma. How many dollars does Frank have?",
+    "correct_answer": "77",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 17,
+      "b": 8,
+      "c": 5
+    }
+  },
+  {
+    "id": "arithmetic_60",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 44 packs of apples. Each pack contains 11 apples. How many apples does Grace have in total?",
+    "correct_answer": "484",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 44,
+      "b": 11,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_61",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 40 books. David gives 16 books to Carol. How many books does David have left?",
+    "correct_answer": "24",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 40,
+      "b": 16,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_62",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Bob has 77 grapes. Bob gives 61 grapes to Carol. How many grapes does Bob have left?",
+    "correct_answer": "16",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 77,
+      "b": 61,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_63",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 49 packs of eggs. Each pack contains 34 eggs. How many eggs does Alice have in total?",
+    "correct_answer": "1666",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 49,
+      "b": 34,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_64",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "David has 32 dollars. Carol gives David 12 more dollars. How many dollars does David have now?",
+    "correct_answer": "44",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_65",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 9 eggs. Grace has 2 times as many. Bob has 2 fewer than Grace. How many eggs does Bob have?",
+    "correct_answer": "16",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 9,
+      "b": 2,
+      "c": 2
+    }
+  },
+  {
+    "id": "arithmetic_66",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Emma has 76 eggs. Emma gives 16 eggs to Frank. How many eggs does Emma have left?",
+    "correct_answer": "60",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 76,
+      "b": 16,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_67",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Emma has 100 eggs to distribute equally among 10 friends. How many eggs does each friend get?",
+    "correct_answer": "10",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 100,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_68",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Henry has 104 apples to distribute equally among 8 friends. How many apples does each friend get?",
+    "correct_answer": "13",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 104,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_69",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Emma buys 48 packs of dollars. Each pack contains 41 dollars. How many dollars does Emma have in total?",
+    "correct_answer": "1968",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 48,
+      "b": 41,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_70",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Alice has 6 eggs. Henry has 5 times as many. Grace has 3 fewer than Henry. How many eggs does Grace have?",
+    "correct_answer": "27",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 6,
+      "b": 3,
+      "c": 5
+    }
+  },
+  {
+    "id": "arithmetic_71",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Henry has 20 grapes. Carol has 5 times as many. Bob has 2 fewer than Carol. How many grapes does Bob have?",
+    "correct_answer": "98",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 20,
+      "b": 2,
+      "c": 5
+    }
+  },
+  {
+    "id": "arithmetic_72",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 15 packs of books. Each pack contains 26 books. How many books does Grace have in total?",
+    "correct_answer": "390",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 15,
+      "b": 26,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_73",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Henry has 20 grapes to distribute equally among 10 friends. How many grapes does each friend get?",
+    "correct_answer": "2",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 20,
+      "b": 10,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_74",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 42 flowers to distribute equally among 3 friends. How many flowers does each friend get?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 3,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_75",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Alice has 16 hats to distribute equally among 8 friends. How many hats does each friend get?",
+    "correct_answer": "2",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 16,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_76",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Frank has 26 hats. Frank gives 7 hats to Emma. How many hats does Frank have left?",
+    "correct_answer": "19",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 26,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_77",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 12 packs of hats. Each pack contains 6 hats. How many hats does Carol have in total?",
+    "correct_answer": "72",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 6,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_78",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 5 eggs. Grace has 5 times as many. Bob has 9 fewer than Grace. How many eggs does Bob have?",
+    "correct_answer": "16",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 5,
+      "b": 9,
+      "c": 5
+    }
+  },
+  {
+    "id": "arithmetic_79",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "David has 12 hats. Henry gives David 46 more hats. How many hats does David have now?",
+    "correct_answer": "58",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 46,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_80",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Henry has 73 eggs. Henry gives 62 eggs to Frank. How many eggs does Henry have left?",
+    "correct_answer": "11",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 73,
+      "b": 62,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_81",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "David has 40 cookies to distribute equally among 8 friends. How many cookies does each friend get?",
+    "correct_answer": "5",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 40,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_82",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Carol has 18 eggs. Henry has 4 times as many. Alice has 6 fewer than Henry. How many eggs does Alice have?",
+    "correct_answer": "66",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 18,
+      "b": 6,
+      "c": 4
+    }
+  },
+  {
+    "id": "arithmetic_83",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 14 hats. Grace gives Emma 33 more hats. How many hats does Emma have now?",
+    "correct_answer": "47",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 14,
+      "b": 33,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_84",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Henry has 19 grapes. Carol has 3 times as many. David has 6 fewer than Carol. How many grapes does David have?",
+    "correct_answer": "51",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 19,
+      "b": 6,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_85",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 60 apples. Grace gives 48 apples to Bob. How many apples does Grace have left?",
+    "correct_answer": "12",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 60,
+      "b": 48,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_86",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 18 cookies to distribute equally among 9 friends. How many cookies does each friend get?",
+    "correct_answer": "2",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 18,
+      "b": 9,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_87",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Frank has 32 hats. Frank gives 17 hats to Henry. How many hats does Frank have left?",
+    "correct_answer": "15",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 17,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_88",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Alice has 12 grapes to distribute equally among 4 friends. How many grapes does each friend get?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 4,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_89",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Emma has 45 grapes to distribute equally among 3 friends. How many grapes does each friend get?",
+    "correct_answer": "15",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 45,
+      "b": 3,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_90",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 39 packs of hats. Each pack contains 7 hats. How many hats does Grace have in total?",
+    "correct_answer": "273",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 39,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_91",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Bob has 12 eggs. Carol has 5 times as many. Henry has 2 fewer than Carol. How many eggs does Henry have?",
+    "correct_answer": "58",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 12,
+      "b": 2,
+      "c": 5
+    }
+  },
+  {
+    "id": "arithmetic_92",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Bob has 6 eggs. Emma gives Bob 7 more eggs. How many eggs does Bob have now?",
+    "correct_answer": "13",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 6,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_93",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 32 packs of flowers. Each pack contains 14 flowers. How many flowers does Alice have in total?",
+    "correct_answer": "448",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 14,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_94",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 41 cookies. Grace gives 12 cookies to Emma. How many cookies does Grace have left?",
+    "correct_answer": "29",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 41,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_95",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Grace has 36 dollars. Emma gives Grace 42 more dollars. How many dollars does Grace have now?",
+    "correct_answer": "78",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 36,
+      "b": 42,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_96",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 78 eggs. David gives 33 eggs to Emma. How many eggs does David have left?",
+    "correct_answer": "45",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 78,
+      "b": 33,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_97",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Henry has 9 cookies. Carol gives Henry 33 more cookies. How many cookies does Henry have now?",
+    "correct_answer": "42",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 9,
+      "b": 33,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_98",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Emma buys 34 packs of eggs. Each pack contains 24 eggs. How many eggs does Emma have in total?",
+    "correct_answer": "816",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 34,
+      "b": 24,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_99",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 50 books. Grace gives 25 books to Henry. How many books does Grace have left?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 50,
+      "b": 25,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_100",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Frank has 5 eggs. Emma has 4 times as many. Carol has 7 fewer than Emma. How many eggs does Carol have?",
+    "correct_answer": "13",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 5,
+      "b": 7,
+      "c": 4
+    }
+  },
+  {
+    "id": "arithmetic_101",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 23 hats. Frank gives Alice 19 more hats. How many hats does Alice have now?",
+    "correct_answer": "42",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 23,
+      "b": 19,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_102",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Frank has 13 dollars. Bob has 2 times as many. Henry has 3 fewer than Bob. How many dollars does Henry have?",
+    "correct_answer": "23",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 13,
+      "b": 3,
+      "c": 2
+    }
+  },
+  {
+    "id": "arithmetic_103",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 42 apples. Henry gives Emma 28 more apples. How many apples does Emma have now?",
+    "correct_answer": "70",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 28,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_104",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Bob has 42 grapes. Bob gives 13 grapes to David. How many grapes does Bob have left?",
+    "correct_answer": "29",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_105",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Frank has 41 eggs. Frank gives 17 eggs to Emma. How many eggs does Frank have left?",
+    "correct_answer": "24",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 41,
+      "b": 17,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_106",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Emma has 27 books to distribute equally among 9 friends. How many books does each friend get?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 27,
+      "b": 9,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_107",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 91 grapes. David gives 47 grapes to Henry. How many grapes does David have left?",
+    "correct_answer": "44",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 91,
+      "b": 47,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_108",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Grace has 34 books. Alice gives Grace 28 more books. How many books does Grace have now?",
+    "correct_answer": "62",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 34,
+      "b": 28,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_109",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 11 packs of flowers. Each pack contains 48 flowers. How many flowers does Grace have in total?",
+    "correct_answer": "528",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 11,
+      "b": 48,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_110",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Henry has 98 flowers. Henry gives 29 flowers to Alice. How many flowers does Henry have left?",
+    "correct_answer": "69",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 98,
+      "b": 29,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_111",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Henry has 12 grapes. Frank gives Henry 13 more grapes. How many grapes does Henry have now?",
+    "correct_answer": "25",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_112",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 11 books. David gives Alice 20 more books. How many books does Alice have now?",
+    "correct_answer": "31",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 11,
+      "b": 20,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_113",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Carol has 18 flowers. Emma has 3 times as many. Frank has 10 fewer than Emma. How many flowers does Frank have?",
+    "correct_answer": "44",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 18,
+      "b": 10,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_114",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 12 grapes to distribute equally among 6 friends. How many grapes does each friend get?",
+    "correct_answer": "2",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 6,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_115",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "David buys 28 packs of dollars. Each pack contains 11 dollars. How many dollars does David have in total?",
+    "correct_answer": "308",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 11,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_116",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Frank buys 17 packs of eggs. Each pack contains 12 eggs. How many eggs does Frank have in total?",
+    "correct_answer": "204",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 17,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_117",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 28 apples to distribute equally among 2 friends. How many apples does each friend get?",
+    "correct_answer": "14",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 2,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_118",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "David buys 9 packs of dollars. Each pack contains 40 dollars. How many dollars does David have in total?",
+    "correct_answer": "360",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 9,
+      "b": 40,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_119",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "David has 38 flowers. David gives 1 flowers to Henry. How many flowers does David have left?",
+    "correct_answer": "37",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 38,
+      "b": 1,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_120",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 16 packs of eggs. Each pack contains 12 eggs. How many eggs does Carol have in total?",
+    "correct_answer": "192",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 16,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_121",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Carol has 42 dollars. Alice gives Carol 25 more dollars. How many dollars does Carol have now?",
+    "correct_answer": "67",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 25,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_122",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Carol has 31 cookies. David gives Carol 38 more cookies. How many cookies does Carol have now?",
+    "correct_answer": "69",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 31,
+      "b": 38,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_123",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Bob has 37 flowers. Emma gives Bob 42 more flowers. How many flowers does Bob have now?",
+    "correct_answer": "79",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 37,
+      "b": 42,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_124",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Henry has 47 apples. Emma gives Henry 38 more apples. How many apples does Henry have now?",
+    "correct_answer": "85",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 47,
+      "b": 38,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_125",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Henry buys 35 packs of apples. Each pack contains 30 apples. How many apples does Henry have in total?",
+    "correct_answer": "1050",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 35,
+      "b": 30,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_126",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 9 hats to distribute equally among 3 friends. How many hats does each friend get?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 9,
+      "b": 3,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_127",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 44 packs of eggs. Each pack contains 45 eggs. How many eggs does Carol have in total?",
+    "correct_answer": "1980",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 44,
+      "b": 45,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_128",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Frank has 19 eggs. David has 5 times as many. Grace has 9 fewer than David. How many eggs does Grace have?",
+    "correct_answer": "86",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 19,
+      "b": 9,
+      "c": 5
+    }
+  },
+  {
+    "id": "arithmetic_129",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Bob has 32 dollars. Henry gives Bob 33 more dollars. How many dollars does Bob have now?",
+    "correct_answer": "65",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 32,
+      "b": 33,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_130",
+    "type": "arithmetic_word_problem",
+    "subtype": "subtraction",
+    "question": "Grace has 73 grapes. Grace gives 13 grapes to Carol. How many grapes does Grace have left?",
+    "correct_answer": "60",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 73,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_131",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Grace buys 28 packs of eggs. Each pack contains 14 eggs. How many eggs does Grace have in total?",
+    "correct_answer": "392",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 28,
+      "b": 14,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_132",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Bob has 24 books to distribute equally among 8 friends. How many books does each friend get?",
+    "correct_answer": "3",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 24,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_133",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Carol buys 47 packs of flowers. Each pack contains 12 flowers. How many flowers does Carol have in total?",
+    "correct_answer": "564",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 47,
+      "b": 12,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_134",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Frank has 12 grapes to distribute equally among 2 friends. How many grapes does each friend get?",
+    "correct_answer": "6",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 2,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_135",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Emma has 9 dollars. Carol has 3 times as many. Alice has 8 fewer than Carol. How many dollars does Alice have?",
+    "correct_answer": "19",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 9,
+      "b": 8,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_136",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Frank has 12 flowers. Henry gives Frank 22 more flowers. How many flowers does Frank have now?",
+    "correct_answer": "34",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 12,
+      "b": 22,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_137",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "David has 13 apples. Henry has 3 times as many. Emma has 1 fewer than Henry. How many apples does Emma have?",
+    "correct_answer": "38",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 13,
+      "b": 1,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_138",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Emma buys 16 packs of apples. Each pack contains 14 apples. How many apples does Emma have in total?",
+    "correct_answer": "224",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 16,
+      "b": 14,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_139",
+    "type": "arithmetic_word_problem",
+    "subtype": "multi_step",
+    "question": "Grace has 7 apples. Alice has 3 times as many. Carol has 9 fewer than Alice. How many apples does Carol have?",
+    "correct_answer": "12",
+    "difficulty": "hard",
+    "flip_risk": "medium",
+    "variables": {
+      "a": 7,
+      "b": 9,
+      "c": 3
+    }
+  },
+  {
+    "id": "arithmetic_140",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 42 cookies to distribute equally among 7 friends. How many cookies does each friend get?",
+    "correct_answer": "6",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 42,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_141",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Bob buys 44 packs of cookies. Each pack contains 8 cookies. How many cookies does Bob have in total?",
+    "correct_answer": "352",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 44,
+      "b": 8,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_142",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 36 grapes. David gives Emma 43 more grapes. How many grapes does Emma have now?",
+    "correct_answer": "79",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 36,
+      "b": 43,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_143",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "Grace has 56 books to distribute equally among 7 friends. How many books does each friend get?",
+    "correct_answer": "8",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 56,
+      "b": 7,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_144",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Emma has 38 hats. Grace gives Emma 47 more hats. How many hats does Emma have now?",
+    "correct_answer": "85",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 38,
+      "b": 47,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_145",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "Alice buys 5 packs of apples. Each pack contains 18 apples. How many apples does Alice have in total?",
+    "correct_answer": "90",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 5,
+      "b": 18,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_146",
+    "type": "arithmetic_word_problem",
+    "subtype": "multiplication",
+    "question": "David buys 23 packs of eggs. Each pack contains 25 eggs. How many eggs does David have in total?",
+    "correct_answer": "575",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 23,
+      "b": 25,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_147",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Alice has 16 grapes. Emma gives Alice 13 more grapes. How many grapes does Alice have now?",
+    "correct_answer": "29",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 16,
+      "b": 13,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_148",
+    "type": "arithmetic_word_problem",
+    "subtype": "division",
+    "question": "David has 24 flowers to distribute equally among 3 friends. How many flowers does each friend get?",
+    "correct_answer": "8",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 24,
+      "b": 3,
+      "c": null
+    }
+  },
+  {
+    "id": "arithmetic_149",
+    "type": "arithmetic_word_problem",
+    "subtype": "addition",
+    "question": "Grace has 25 books. Alice gives Grace 41 more books. How many books does Grace have now?",
+    "correct_answer": "66",
+    "difficulty": "medium",
+    "flip_risk": "low",
+    "variables": {
+      "a": 25,
+      "b": 41,
+      "c": null
+    }
+  }
+]

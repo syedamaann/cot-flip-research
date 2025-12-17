@@ -1,0 +1,749 @@
+[
+  {
+    "id": "percent_0",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $57 is increased by 30%, then decreased by 30%. What is the final price?",
+    "correct_answer": "$51.87",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $57 - percentage of different bases"
+  },
+  {
+    "id": "percent_1",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 28% of 75?",
+    "correct_answer": "21.0",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_2",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 85 to 108. What is the percentage change?",
+    "correct_answer": "27.1%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_3",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $170 is increased by 18%, then decreased by 18%. What is the final price?",
+    "correct_answer": "$164.49",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $170 - percentage of different bases"
+  },
+  {
+    "id": "percent_4",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 88% of 170?",
+    "correct_answer": "149.6",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_5",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 51 to 5. What is the percentage change?",
+    "correct_answer": "-90.2%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_6",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $115 is increased by 23%, then decreased by 23%. What is the final price?",
+    "correct_answer": "$108.92",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $115 - percentage of different bases"
+  },
+  {
+    "id": "percent_7",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 87% of 88?",
+    "correct_answer": "76.56",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_8",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 185 to 163. What is the percentage change?",
+    "correct_answer": "-11.9%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_9",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $123 is increased by 25%, then decreased by 25%. What is the final price?",
+    "correct_answer": "$115.31",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $123 - percentage of different bases"
+  },
+  {
+    "id": "percent_10",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 16% of 127?",
+    "correct_answer": "20.32",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_11",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 111 to 178. What is the percentage change?",
+    "correct_answer": "60.4%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_12",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $66 is increased by 17%, then decreased by 17%. What is the final price?",
+    "correct_answer": "$64.09",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $66 - percentage of different bases"
+  },
+  {
+    "id": "percent_13",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 78% of 177?",
+    "correct_answer": "138.06",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_14",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 54 to 135. What is the percentage change?",
+    "correct_answer": "150.0%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_15",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $197 is increased by 25%, then decreased by 25%. What is the final price?",
+    "correct_answer": "$184.69",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $197 - percentage of different bases"
+  },
+  {
+    "id": "percent_16",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 64% of 86?",
+    "correct_answer": "55.04",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_17",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 50 to 90. What is the percentage change?",
+    "correct_answer": "80.0%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_18",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $111 is increased by 46%, then decreased by 46%. What is the final price?",
+    "correct_answer": "$87.51",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $111 - percentage of different bases"
+  },
+  {
+    "id": "percent_19",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 20% of 156?",
+    "correct_answer": "31.2",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_20",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 184 to 151. What is the percentage change?",
+    "correct_answer": "-17.9%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_21",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $184 is increased by 44%, then decreased by 44%. What is the final price?",
+    "correct_answer": "$148.38",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $184 - percentage of different bases"
+  },
+  {
+    "id": "percent_22",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 80% of 179?",
+    "correct_answer": "143.2",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_23",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 55 to 125. What is the percentage change?",
+    "correct_answer": "127.3%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_24",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $61 is increased by 50%, then decreased by 50%. What is the final price?",
+    "correct_answer": "$45.75",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $61 - percentage of different bases"
+  },
+  {
+    "id": "percent_25",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 42% of 149?",
+    "correct_answer": "62.58",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_26",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 54 to 21. What is the percentage change?",
+    "correct_answer": "-61.1%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_27",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $138 is increased by 25%, then decreased by 25%. What is the final price?",
+    "correct_answer": "$129.38",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $138 - percentage of different bases"
+  },
+  {
+    "id": "percent_28",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 52% of 76?",
+    "correct_answer": "39.52",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_29",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 84 to 124. What is the percentage change?",
+    "correct_answer": "47.6%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_30",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $189 is increased by 31%, then decreased by 31%. What is the final price?",
+    "correct_answer": "$170.84",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $189 - percentage of different bases"
+  },
+  {
+    "id": "percent_31",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 71% of 94?",
+    "correct_answer": "66.74",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_32",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 96 to 62. What is the percentage change?",
+    "correct_answer": "-35.4%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_33",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $167 is increased by 12%, then decreased by 12%. What is the final price?",
+    "correct_answer": "$164.6",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $167 - percentage of different bases"
+  },
+  {
+    "id": "percent_34",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 15% of 125?",
+    "correct_answer": "18.75",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_35",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 101 to 131. What is the percentage change?",
+    "correct_answer": "29.7%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_36",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $129 is increased by 42%, then decreased by 42%. What is the final price?",
+    "correct_answer": "$106.24",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $129 - percentage of different bases"
+  },
+  {
+    "id": "percent_37",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 70% of 151?",
+    "correct_answer": "105.7",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_38",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 114 to 112. What is the percentage change?",
+    "correct_answer": "-1.8%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_39",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $123 is increased by 32%, then decreased by 32%. What is the final price?",
+    "correct_answer": "$110.4",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $123 - percentage of different bases"
+  },
+  {
+    "id": "percent_40",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 44% of 62?",
+    "correct_answer": "27.28",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_41",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 81 to 142. What is the percentage change?",
+    "correct_answer": "75.3%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_42",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $152 is increased by 38%, then decreased by 38%. What is the final price?",
+    "correct_answer": "$130.05",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $152 - percentage of different bases"
+  },
+  {
+    "id": "percent_43",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 33% of 148?",
+    "correct_answer": "48.84",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_44",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 177 to 221. What is the percentage change?",
+    "correct_answer": "24.9%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_45",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $182 is increased by 27%, then decreased by 27%. What is the final price?",
+    "correct_answer": "$168.73",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $182 - percentage of different bases"
+  },
+  {
+    "id": "percent_46",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 20% of 71?",
+    "correct_answer": "14.2",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_47",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 160 to 156. What is the percentage change?",
+    "correct_answer": "-2.5%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_48",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $189 is increased by 28%, then decreased by 28%. What is the final price?",
+    "correct_answer": "$174.18",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $189 - percentage of different bases"
+  },
+  {
+    "id": "percent_49",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 20% of 132?",
+    "correct_answer": "26.4",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_50",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 133 to 161. What is the percentage change?",
+    "correct_answer": "21.1%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_51",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $164 is increased by 48%, then decreased by 48%. What is the final price?",
+    "correct_answer": "$126.21",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $164 - percentage of different bases"
+  },
+  {
+    "id": "percent_52",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 66% of 159?",
+    "correct_answer": "104.94",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_53",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 139 to 99. What is the percentage change?",
+    "correct_answer": "-28.8%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_54",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $140 is increased by 49%, then decreased by 49%. What is the final price?",
+    "correct_answer": "$106.39",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $140 - percentage of different bases"
+  },
+  {
+    "id": "percent_55",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 17% of 161?",
+    "correct_answer": "27.37",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_56",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 69 to 122. What is the percentage change?",
+    "correct_answer": "76.8%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_57",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $143 is increased by 42%, then decreased by 42%. What is the final price?",
+    "correct_answer": "$117.77",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $143 - percentage of different bases"
+  },
+  {
+    "id": "percent_58",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 28% of 90?",
+    "correct_answer": "25.2",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_59",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 162 to 144. What is the percentage change?",
+    "correct_answer": "-11.1%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_60",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $67 is increased by 25%, then decreased by 25%. What is the final price?",
+    "correct_answer": "$62.81",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $67 - percentage of different bases"
+  },
+  {
+    "id": "percent_61",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 59% of 143?",
+    "correct_answer": "84.37",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_62",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 195 to 184. What is the percentage change?",
+    "correct_answer": "-5.6%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_63",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $165 is increased by 33%, then decreased by 33%. What is the final price?",
+    "correct_answer": "$147.03",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $165 - percentage of different bases"
+  },
+  {
+    "id": "percent_64",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 19% of 145?",
+    "correct_answer": "27.55",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_65",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 196 to 281. What is the percentage change?",
+    "correct_answer": "43.4%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_66",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $143 is increased by 35%, then decreased by 35%. What is the final price?",
+    "correct_answer": "$125.48",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $143 - percentage of different bases"
+  },
+  {
+    "id": "percent_67",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 41% of 130?",
+    "correct_answer": "53.3",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_68",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 79 to 76. What is the percentage change?",
+    "correct_answer": "-3.8%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_69",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $177 is increased by 43%, then decreased by 43%. What is the final price?",
+    "correct_answer": "$144.27",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $177 - percentage of different bases"
+  },
+  {
+    "id": "percent_70",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 25% of 149?",
+    "correct_answer": "37.25",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_71",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 117 to 181. What is the percentage change?",
+    "correct_answer": "54.7%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_72",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $104 is increased by 49%, then decreased by 49%. What is the final price?",
+    "correct_answer": "$79.03",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $104 - percentage of different bases"
+  },
+  {
+    "id": "percent_73",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 35% of 123?",
+    "correct_answer": "43.05",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_74",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 81 to 49. What is the percentage change?",
+    "correct_answer": "-39.5%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_75",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $165 is increased by 21%, then decreased by 21%. What is the final price?",
+    "correct_answer": "$157.72",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $165 - percentage of different bases"
+  },
+  {
+    "id": "percent_76",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 50% of 163?",
+    "correct_answer": "81.5",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  },
+  {
+    "id": "percent_77",
+    "type": "percentage",
+    "subtype": "change",
+    "question": "A value changes from 138 to 228. What is the percentage change?",
+    "correct_answer": "65.2%",
+    "difficulty": "medium",
+    "flip_risk": "medium"
+  },
+  {
+    "id": "percent_78",
+    "type": "percentage",
+    "subtype": "increase_decrease",
+    "question": "A price of $188 is increased by 28%, then decreased by 28%. What is the final price?",
+    "correct_answer": "$173.26",
+    "difficulty": "medium",
+    "flip_risk": "high",
+    "explanation": "Not $188 - percentage of different bases"
+  },
+  {
+    "id": "percent_79",
+    "type": "percentage",
+    "subtype": "simple",
+    "question": "What is 32% of 126?",
+    "correct_answer": "40.32",
+    "difficulty": "easy",
+    "flip_risk": "low"
+  }
+]
