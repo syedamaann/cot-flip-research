@@ -1,4 +1,4 @@
-# Understanding Last-Minute Answer Flips in Reasoning Models
+# Understanding Last-Minute Answer Flips in Reasoning Models.
 
 ## The Phenomenon
 Reasoning models (DeepSeek-R1, QwQ, o1-like models) sometimes exhibit a peculiar failure mode: they produce a coherent, reasonable chain of thought that points toward answer A, then at the final moment, output answer B instead. This "last-minute flip" is one of several forms of unfaithful chain of thought identified in recent work (Arcuschin et al., Chen et al.).
