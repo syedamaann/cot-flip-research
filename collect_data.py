@@ -7,7 +7,6 @@ Supports multiple inference backends: vLLM, OpenAI API, Anthropic API, local tra
 import json
 import time
 import re
-import os
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass, asdict

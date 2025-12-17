@@ -8,7 +8,7 @@ import json
 import re
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
-from dataclasses import dataclass, asdict, field
+from dataclasses import dataclass, asdict
 from enum import Enum
 from collections import Counter
 import difflib
