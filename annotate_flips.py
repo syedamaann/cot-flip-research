@@ -465,11 +465,11 @@ def main():
     
     parser = argparse.ArgumentParser(description="Annotate flip dataset")
     parser.add_argument("--input", type=str, 
-                       default="/home/claude/cot-flip-research/data/raw/model_outputs.json")
+                       default="./data/raw/model_outputs.json")
     parser.add_argument("--problems", type=str,
-                       default="/home/claude/cot-flip-research/data/problems/all_problems.json")
+                       default="./data/problems/all_problems.json")
     parser.add_argument("--output", type=str,
-                       default="/home/claude/cot-flip-research/data/annotated/flip_annotations.json")
+                       default="./data/annotated/flip_annotations.json")
     
     args = parser.parse_args()
     
